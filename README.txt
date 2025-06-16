@@ -25,3 +25,5 @@ Uwagi techniczne:
 
 Data utworzenia: 15 czerwca 2025
 Wersja: 1.0
+
+i zapewnić, że wszystkie funkcjonalności, takie jak formularz kontaktowy, działają poprawnie.
