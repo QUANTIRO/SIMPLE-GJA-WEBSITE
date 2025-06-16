@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title data-i18n="page_title">GOLD JOB AGENCY - Twoja Kariera w Europie</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+        section[id] {
+            scroll-margin-top: 112px; /* h-28 */
+        }
+        .text-gold {
+            color: #d5b75d;
+        }
+        .bg-gold {
+            background-color: #d5b75d;
+        }
+        .border-gold {
+            border-color: #d5b75d;
+        }
+        .hover\:bg-gold-dark:hover {
+            background-color: #c4a553;
+        }
+        .hover\:text-gold:hover {
+            color: #d5b75d;
+        }
+    </style>
+    <!-- i18next -->
+    <script src="https://unpkg.com/i18next/i18next.min.js"></script>
+    <script src="https://unpkg.com/i18next-http-backend/i18nextHttpBackend.min.js"></script>
+    <script src="https://unpkg.com/i18next-browser-languagedetector/i18nextBrowserLanguageDetector.min.js"></script>
+    <!-- custom i18n script -->
+    <script src="i18n.js"></script>
+</head>
+<body class="bg-white text-gray-900">
+    <!-- Header -->
+    <header id="header" class="bg-white shadow-md sticky top-0 z-50 transition-all duration-300">
+        <nav class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-20">
+                <div class="flex-shrink-0">
+                    <a href="index.html">
+                        <img class="h-16 w-auto" src="images/GJA.png" alt="Gold Job Agency">
+                    </a>
+                </div>
+                <div class="hidden md:block">
+                    <div class="ml-10 flex items-baseline space-x-4">
+                        <a href="#about" class="text-gray-700 hover:text-gold px-3 py-2 rounded-md text-sm font-medium" data-i18n="nav.about">O Nas</a>
+                        <a href="#services" class="text-gray-700 hover:text-gold px-3 py-2 rounded-md text-sm font-medium" data-i18n="nav.services">Usługi</a>
+                        <a href="#employees" class="text-gray-700 hover:text-gold px-3 py-2 rounded-md text-sm font-medium" data-i18n="nav.employees">Dla Pracowników</a>
+                        <a href="#employers" class="text-gray-700 hover:text-gold px-3 py-2 rounded-md text-sm font-medium" data-i18n="nav.employers">Dla Pracodawców</a>
+                        <a href="#contact-form" class="text-gray-700 hover:text-gold px-3 py-2 rounded-md text-sm font-medium" data-i18n="nav.contact">Kontakt</a>
+                    </div>
+                </div>
+                <!-- Language and Mobile Menu -->
+                <div class="flex items-center">
+                    <!-- Language Switcher -->
+                    <div id="language-switcher-container" class="relative inline-block text-left mr-4">
+                        <!-- Language switcher will be injected here by i18n.js -->
+                    </div>
+
+                    <!-- Mobile menu button -->
+                    <div class="-mr-2 flex md:hidden">
+                        <button type="button" id="mobile-menu-button" class="bg-white inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-white hover:bg-gold focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white" aria-controls="mobile-menu" aria-expanded="false">
+                            <span class="sr-only" data-i18n="nav.open_menu">Open main menu</span>
+                            <svg class="block h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7" />
+                            </svg>
+                            <svg class="hidden h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Mobile menu, show/hide based on menu state. -->
+        <div class="md:hidden hidden" id="mobile-menu">
+            <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3">
+                <a href="#about" class="text-gray-700 hover:text-gold block px-3 py-2 rounded-md text-base font-medium" data-i18n="nav.about">O Nas</a>
+                <a href="#services" class="text-gray-700 hover:text-gold block px-3 py-2 rounded-md text-base font-medium" data-i18n="nav.services">Usługi</a>
+                <a href="#employees" class="text-gray-700 hover:text-gold block px-3 py-2 rounded-md text-base font-medium" data-i18n="nav.employees">Dla Pracowników</a>
+                <a href="#employers" class="text-gray-700 hover:text-gold block px-3 py-2 rounded-md text-base font-medium" data-i18n="nav.employers">Dla Pracodawców</a>
+                <a href="#contact-form" class="text-gray-700 hover:text-gold block px-3 py-2 rounded-md text-base font-medium" data-i18n="nav.contact">Kontakt</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="about" class="bg-white pt-24 pb-16">
+        <div class="text-center max-w-4xl mx-auto px-4">
+             <div class="flex justify-center mb-10">
+                <img src="images/GJA.png" alt="Gold Job Agency Logo" class="h-40">
+             </div>
+            <p class="mt-6 max-w-3xl mx-auto text-xl text-gray-600" data-i18n="hero.subtitle">
+                Jesteśmy wiodącą Agencją pośrednictwa pracy, specjalizującą się w łączeniu utalentowanych pracowników z Azji, Afryki i Ameryki z czołowymi firmami na terenie Unii Europejskiej. Nasza firma powstała z myślą o osobach poszukujących nowych możliwości zawodowych, dostosowanych do ich kwalifikacji i aspiracji.
+            </p>
+             <div class="grid md:grid-cols-3 gap-10 mt-12">
+                <div class="text-center p-6 bg-white rounded-lg border border-gray-200">
+                    <div class="flex justify-center items-center mx-auto mb-4 h-16 w-16 rounded-full bg-gold/10">
+                        <svg class="h-8 w-8 text-gold" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M15.75 6a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0zM4.501 20.118a7.5 7.5 0 0114.998 0A17.933 17.933 0 0112 21.75c-2.676 0-5.216-.584-7.499-1.632z"></path></svg>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-2" data-i18n="features.feature1_title">Indywidualne podejście</h3>
+                    <p class="text-gray-600" data-i18n="features.feature1_desc">Każdy kandydat jest dla nas wyjątkowy. Analizujemy Twoje umiejętności i oczekiwania, aby znaleźć idealne stanowisko.</p>
+                </div>
+                <div class="text-center p-6 bg-white rounded-lg border border-gray-200">
+                     <div class="flex justify-center items-center mx-auto mb-4 h-16 w-16 rounded-full bg-gold/10">
+                        <svg class="h-8 w-8 text-gold" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-2" data-i18n="features.feature2_title">Doświadczenie i zaufanie</h3>
+                    <p class="text-gray-600" data-i18n="features.feature2_desc">Działamy od lat, ciesząc się zaufaniem setek pracowników i pracodawców. Stawiamy na transparentność i profesjonalizm.</p>
+                </div>
+                <div class="text-center p-6 bg-white rounded-lg border border-gray-200">
+                     <div class="flex justify-center items-center mx-auto mb-4 h-16 w-16 rounded-full bg-gold/10">
+                       <svg class="h-8 w-8 text-gold" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" ><path stroke-linecap="round" stroke-linejoin="round" d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9V3m-9 9h18"></path></svg>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-2" data-i18n="features.feature3_title">Kompleksowe wsparcie</h3>
+                    <p class="text-gray-600" data-i18n="features.feature3_desc">Zapewniamy pełne wsparcie na każdym etapie – od rekrutacji, przez formalności, po zakwaterowanie i wsparcie na miejscu.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Quality Section -->
+    <section id="quality" class="py-20 bg-gray-50">
+        <div class="max-w-3xl mx-auto px-4 text-center">
+            <div class="flex justify-center items-center mb-4 text-gold">
+                <svg class="h-16 w-16" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" /></svg>
+            </div>
+            <h2 class="text-3xl font-bold text-gray-900 mb-4" data-i18n="quality.title">Gwarancja Jakości i Bezpieczeństwa</h2>
+            <p class="max-w-3xl mx-auto text-gray-600 mb-6" data-i18n="quality.desc">Nasze wieloletnie doświadczenie, w trakcie którego to czasu niejednokrotnie mierzyliśmy się z sytuacjami kryzysowymi, pozwoliło nam na wypracowanie systemu, w którym pracownik ma gwarancję zatrudnienia u sprawdzonego pracodawcy, a z drugiej strony pracodawca ma gwarancję, że zatrudnia wykwalifikowanego pracownika.</p>
+            <a href="certyfikat.pdf" target="_blank" class="inline-block mt-4 px-8 py-4 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-gold hover:bg-gold-dark focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gold transition-colors" data-i18n="quality.button">Jesteśmy legalnie działającą Agencją Pracy zarejestrowaną w KRAZ pod numerem 34778</a>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center">
+                <h2 class="text-3xl font-extrabold text-gray-900" data-i18n="services.title">Nasze Usługi</h2>
+                <p class="mt-4 max-w-2xl mx-auto text-xl text-gray-500" data-i18n="services.subtitle1">Specjalizujemy się w łączeniu pracodawców z wykwalifikowanymi pracownikami z całego świata. Nasze usługi obejmują pełen zakres wsparcia - od rekrutacji po adaptację w nowym miejscu pracy.</p>
+                <p class="mt-4 max-w-4xl mx-auto text-md text-gray-500" data-i18n="services.subtitle2">Nasi eksperci działają na rynku pośrednictwa pracy od 2017 roku. Od tego czasu, z powodzeniem łączymy pracowników i pracodawców między innymi w takich krajach jak Polska, Litwa, Niemcy czy Szwecja. Zaufało nam już setki pracowników z Azji, Ameryki Południowej, Europy Wschodniej.</p>
+            </div>
+
+            <div class="mt-20 grid gap-10 lg:grid-cols-3">
+                <!-- Service 1: International Recruitment -->
+                <div class="bg-white rounded-lg shadow-lg p-8 border border-gold">
+                    <img src="images/corobimy1.avif" alt="Rekrutacja Międzynarodowa" class="w-full h-48 object-cover rounded-md mb-6">
+                    <div class="flex items-center text-gold mb-4">
+                        <svg class="h-10 w-10" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9V3m-9 9h18"></path></svg>
+                        <h3 class="ml-4 text-xl font-bold text-gray-900" data-i18n="services.service1_title">Rekrutacja Międzynarodowa</h3>
+                    </div>
+                    <p class="text-gray-600 mb-6" data-i18n="services.service1_desc">Kompleksowa rekrutacja wykwalifikowanych pracowników z krajów UE i spoza UE. Sprawdzamy kwalifikacje, doświadczenie i znajomość języków.</p>
+                    <ul class="space-y-4 text-gray-600">
+                        <li class="flex items-start"><svg class="h-6 w-6 text-gold flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg><span class="ml-3" data-i18n="services.service1_item1">Weryfikacja dokumentów i kwalifikacji</span></li>
+                        <li class="flex items-start"><svg class="h-6 w-6 text-gold flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg><span class="ml-3" data-i18n="services.service1_item2">Testy językowe i kompetencyjne</span></li>
+                        <li class="flex items-start"><svg class="h-6 w-6 text-gold flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg><span class="ml-3" data-i18n="services.service1_item3">Wsparcie w procesie wizowym</span></li>
+                        <li class="flex items-start"><svg class="h-6 w-6 text-gold flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg><span class="ml-3" data-i18n="services.service1_item4">Przygotowanie do rozmów kwalifikacyjnych</span></li>
+                    </ul>
+                </div>
+
+                <!-- Service 2: Ad Matching -->
+                <div class="bg-white rounded-lg shadow-lg p-8 border border-gold">
+                    <img src="images/corobimy2.avif" alt="Dopasowanie Ogłoszeń" class="w-full h-48 object-cover rounded-md mb-6">
+                    <div class="flex items-center text-gold mb-4">
+                        <svg class="h-10 w-10" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg>
+                        <h3 class="ml-4 text-xl font-bold text-gray-900" data-i18n="services.service2_title">Dopasowanie Ogłoszeń</h3>
+                    </div>
+                    <p class="text-gray-600 mb-6" data-i18n="services.service2_desc">Zaawansowana platforma AI łącząca kandydatów z idealną pracą w oparciu o umiejętności, doświadczenie i preferencje.</p>
+                    <ul class="space-y-4 text-gray-600">
+                        <li class="flex items-start"><svg class="h-6 w-6 text-gold flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg><span class="ml-3" data-i18n="services.service2_item1">Inteligentne dopasowanie AI</span></li>
+                        <li class="flex items-start"><svg class="h-6 w-6 text-gold flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg><span class="ml-3" data-i18n="services.service2_item2">Baza tysięcy aktualnych ofert</span></li>
+                        <li class="flex items-start"><svg class="h-6 w-6 text-gold flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg><span class="ml-3" data-i18n="services.service2_item3">Personalizowane rekomendacje</span></li>
+                        <li class="flex items-start"><svg class="h-6 w-6 text-gold flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg><span class="ml-3" data-i18n="services.service2_item4">Śledzenie aplikacji w czasie rzeczywistym</span></li>
+                    </ul>
+                </div>
+
+                <!-- Service 3: Training and Preparation -->
+                <div class="bg-white rounded-lg shadow-lg p-8 border border-gold">
+                    <img src="images/corobimy3.jpeg" alt="Szkolenia i Przygotowanie" class="w-full h-48 object-cover rounded-md mb-6">
+                    <div class="flex items-center text-gold mb-4">
+                        <svg class="h-10 w-10" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M12 14l9-5-9-5-9 5 9 5z"></path><path d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-5.998 12.078 12.078 0 01.665-6.479L12 14z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 14l9-5-9-5-9 5 9 5zm0 0v6"></path></svg>
+                        <h3 class="ml-4 text-xl font-bold text-gray-900" data-i18n="services.service3_title">Szkolenia i Przygotowanie</h3>
+                    </div>
+                    <p class="text-gray-600 mb-6" data-i18n="services.service3_desc">Profesjonalne szkolenia branżowe, kursy językowe i programy adaptacyjne przygotowujące do pracy w Europie.</p>
+                    <ul class="space-y-4 text-gray-600">
+                        <li class="flex items-start"><svg class="h-6 w-6 text-gold flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg><span class="ml-3" data-i18n="services.service3_item1">Kursy języków europejskich (niemiecki, angielski, holenderski)</span></li>
+                        <li class="flex items-start"><svg class="h-6 w-6 text-gold flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg><span class="ml-3" data-i18n="services.service3_item2">Szkolenia branżowe i certyfikaty</span></li>
+                        <li class="flex items-start"><svg class="h-6 w-6 text-gold flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg><span class="ml-3" data-i18n="services.service3_item3">Programy adaptacji kulturowej</span></li>
+                        <li class="flex items-start"><svg class="h-6 w-6 text-gold flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg><span class="ml-3" data-i18n="services.service3_item4">Wsparcie mentorskie po zatrudnieniu</span></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- For Employees Section -->
+    <section id="employees" class="py-20 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="text-center mb-12">
+                <h2 class="text-4xl font-bold text-gray-900" data-i18n="employees.title">Popularne Kategorie Pracy</h2>
+                <p class="mt-4 text-xl text-gray-600 max-w-3xl mx-auto" data-i18n="employees.subtitle">Znajdź pracę w branży, która Cię interesuje. Oferujemy stanowiska w różnych sektorach na terenie całej Europy.</p>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="group relative"><img class="w-full h-80 object-cover rounded-lg" src="images/budownictwo.avif"/><div class="absolute inset-0 bg-black/60 rounded-lg flex flex-col justify-end p-6"><h3 class="text-white text-2xl font-bold" data-i18n="employees.cat1">Budownictwo</h3><p class="text-gray-300 mt-2" data-i18n="employees.cat1_desc">Pracownicy budowlani, murarze, cieśle</p><div class="text-xs text-gray-400" data-i18n="employees.cat1_loc">Holandia • Belgia • Niemcy • Francja</div></div></div>
+                <div class="group relative"><img class="w-full h-80 object-cover rounded-lg" src="images/spawalnictwo.png"/><div class="absolute inset-0 bg-black/60 rounded-lg flex flex-col justify-end p-6"><h3 class="text-white text-2xl font-bold" data-i18n="employees.cat2">Spawalnictwo</h3><p class="text-gray-300 mt-2" data-i18n="employees.cat2_desc">Spawacze TIG, MIG, MAG</p><div class="text-xs text-gray-400" data-i18n="employees.cat2_loc">Holandia • Belgia • Niemcy • Francja</div></div></div>
+                <div class="group relative"><img class="w-full h-80 object-cover rounded-lg" src="images/logistyka.png"/><div class="absolute inset-0 bg-black/60 rounded-lg flex flex-col justify-end p-6"><h3 class="text-white text-2xl font-bold" data-i18n="employees.cat3">Logistyka</h3><p class="text-gray-300 mt-2" data-i18n="employees.cat3_desc">Magazynierzy, operatorzy wózków widłowych</p><div class="text-xs text-gray-400" data-i18n="employees.cat3_loc">Holandia • Belgia • Niemcy • Francja</div></div></div>
+                <div class="group relative"><img class="w-full h-80 object-cover rounded-lg" src="images/produkcja.jpeg"/><div class="absolute inset-0 bg-black/60 rounded-lg flex flex-col justify-end p-6"><h3 class="text-white text-2xl font-bold" data-i18n="employees.cat4">Produkcja</h3><p class="text-gray-300 mt-2" data-i18n="employees.cat4_desc">Pracownicy linii produkcyjnej, operatorzy maszyn</p><div class="text-xs text-gray-400" data-i18n="employees.cat4_loc">Holandia • Belgia • Niemcy • Francja</div></div></div>
+                <div class="group relative"><img class="w-full h-80 object-cover rounded-lg" src="images/rolnictwo.png"/><div class="absolute inset-0 bg-black/60 rounded-lg flex flex-col justify-end p-6"><h3 class="text-white text-2xl font-bold" data-i18n="employees.cat5">Rolnictwo</h3><p class="text-gray-300 mt-2" data-i18n="employees.cat5_desc">Pracownicy sezonowi, ogrodnicy</p><div class="text-xs text-gray-400" data-i18n="employees.cat5_loc">Holandia • Belgia • Niemcy • Francja</div></div></div>
+                <div class="group relative"><img class="w-full h-80 object-cover rounded-lg" src="images/sprzatanie.png"/><div class="absolute inset-0 bg-black/60 rounded-lg flex flex-col justify-end p-6"><h3 class="text-white text-2xl font-bold" data-i18n="employees.cat6">Sprzątanie</h3><p class="text-gray-300 mt-2" data-i18n="employees.cat6_desc">Personel sprzątający w hotelach i biurach</p><div class="text-xs text-gray-400" data-i18n="employees.cat6_loc">Holandia • Belgia • Niemcy • Francja</div></div></div>
+            </div>
+             <div class="text-center mt-20 h-20">
+                <h2 id="dynamic-heading" class="text-5xl font-bold tracking-wider text-gold" data-i18n="[data-i18n]employees.dynamic_heading"></h2>
+            </div>
+        </div>
+    </section>
+
+    <!-- Employers Section -->
+    <section id="employers" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center">
+                <h2 class="text-4xl font-extrabold text-gray-900 sm:text-5xl" data-i18n="employers.title">Usługi dla Pracodawców</h2>
+                <p class="mt-4 max-w-2xl mx-auto text-xl text-gray-800" data-i18n="employers.subtitle">Kompleksowe Rozwiązania Kadrowe dla Firm</p>
+            </div>
+            <div class="mt-20">
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
+                    <div><img class="rounded-lg shadow-xl" src="images/dlapracodawcy.avif" alt="Zespół omawiający projekt inżynieryjny"></div>
+                    <div class="space-y-6">
+                        <h3 class="text-2xl font-bold text-gray-800" data-i18n="employers.solutions_title">Nasze Rozwiązania</h3>
+                        <div class="rounded-lg border border-gray-200 p-6"><div class="flex items-start"><div class="flex-shrink-0"><svg class="h-8 w-8 text-gold" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" /></svg></div><div class="ml-4"><h4 class="text-lg font-bold text-gray-900" data-i18n="employers.solution1_title">Kompleksowa rekrutacja i selekcja kandydatów</h4><p class="mt-1 text-base text-gray-600" data-i18n="employers.solution1_desc">Przeprowadzamy cały proces rekrutacyjny – od pozyskania kandydatów, przez selekcję CV, rozmowy kwalifikacyjne, aż po przedstawienie pracodawcy wyselekcjonowanych, najlepiej dopasowanych osób. Dzięki temu oszczędzasz czas i masz pewność, że otrzymujesz kandydatów o odpowiednich kwalifikacjach i predyspozycjach.</p></div></div></div>
+                        <div class="rounded-lg border border-gray-200 p-6"><div class="flex items-start"><div class="flex-shrink-0"><svg class="h-8 w-8 text-gold" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" /></svg></div><div class="ml-4"><h4 class="text-lg font-bold text-gray-900" data-i18n="employers.solution2_title">Obsługa formalności kadrowych i prawnych</h4><p class="mt-1 text-base text-gray-600" data-i18n="employers.solution2_desc">Zajmujemy się przygotowaniem i obsługą wszystkich dokumentów związanych z zatrudnieniem – od umów, przez zgłoszenia do ZUS, po prowadzenie dokumentacji pracowniczej i rozliczenia płacowe. Gwarantujemy legalność oraz bezpieczeństwo zatrudnienia, także w przypadku pracowników z zagranicy.</p></div></div></div>
+                        <div class="rounded-lg border border-gray-200 p-6"><div class="flex items-start"><div class="flex-shrink-0"><svg class="h-8 w-8 text-gold" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2m4 6h.01M5 20h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" /></svg></div><div class="ml-4"><h4 class="text-lg font-bold text-gray-900" data-i18n="employers.solution3_title">Doradztwo personalne i wsparcie HR</h4><p class="mt-1 text-base text-gray-600" data-i18n="employers.solution3_desc">Oferujemy profesjonalne doradztwo w zakresie doboru pracowników, analizy potrzeb kadrowych oraz optymalizacji procesów zatrudnienia. Pomagamy w budowaniu efektywnych zespołów i wspieramy rozwój employer brandingu Twojej firmy.</p></div></div></div>
+                        <div class="rounded-lg border border-gray-200 p-6"><div class="flex items-start"><div class="flex-shrink-0"><svg class="h-8 w-8 text-gold" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" /></svg></div><div class="ml-4"><h4 class="text-lg font-bold text-gray-900" data-i18n="employers.solution4_title">Szybkie i elastyczne zatrudnianie pracowników tymczasowych</h4><p class="mt-1 text-base text-gray-600" data-i18n="employers.solution4_desc">Zapewniamy możliwość szybkiego pozyskania pracowników na zastępstwo, do projektów sezonowych lub w sytuacjach nagłych. Dzięki szerokiej bazie kandydatów i sprawnym procesom rekrutacyjnym, błyskawicznie odpowiadamy na Twoje bieżące potrzeby kadrowe.</p></div></div></div>
+                        <div class="rounded-lg border border-gray-200 p-6"><div class="flex items-start"><div class="flex-shrink-0"><svg class="h-8 w-8 text-gold" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z" /></svg></div><div class="ml-4"><h4 class="text-lg font-bold text-gray-900" data-i18n="employers.solution5_title">Promocja ofert pracy i wizerunku pracodawcy</h4><p class="mt-1 text-base text-gray-600" data-i18n="employers.solution5_desc">Dbamy o skuteczną promocję Twoich ofert pracy na portalach ogłoszeniowych, w mediach społecznościowych oraz w branżowych kanałach komunikacji. Wspieramy budowanie pozytywnego wizerunku Twojej firmy jako atrakcyjnego pracodawcy na rynku pracy.</p></div></div></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Form Section -->
+    <section id="contact-form" class="py-20 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="max-w-3xl mx-auto text-center">
+                <h2 class="text-3xl font-extrabold text-gray-900 sm:text-4xl" data-i18n="contactForm.title">Skontaktuj się z Nami</h2>
+                <p class="mt-4 text-lg text-gray-500" data-i18n="contactForm.desc">Masz pytania lub chcesz nawiązać współpracę? Wypełnij formularz poniżej, a nasz zespół odezwie się do Ciebie najszybciej jak to możliwe.</p>
+            </div>
+            <div class="mt-12 max-w-3xl mx-auto">
+                <form action="https://formspree.io/f/xnnvvvle" method="POST" class="grid grid-cols-1 gap-y-6 sm:grid-cols-2 sm:gap-x-8">
+                    <input type="hidden" name="_next" value="thank-you.html">
+                    <div>
+                        <label for="full-name" class="sr-only">Imię i Nazwisko</label>
+                        <input type="text" name="full-name" id="full-name" autocomplete="name" required class="block w-full shadow-sm py-3 px-4 placeholder-gray-500 focus:ring-gold focus:border-gold border-gray-300 rounded-md" data-i18n="[placeholder]contactForm.name_placeholder" placeholder="Imię i Nazwisko *">
+                    </div>
+                    <div>
+                        <label for="email" class="sr-only">Email</label>
+                        <input id="email" name="email" type="email" autocomplete="email" required class="block w-full shadow-sm py-3 px-4 placeholder-gray-500 focus:ring-gold focus:border-gold border-gray-300 rounded-md" data-i18n="[placeholder]contactForm.email_placeholder" placeholder="Adres e-mail *">
+                    </div>
+                    <div class="sm:col-span-2">
+                        <label for="phone" class="sr-only">Numer telefonu</label>
+                        <input type="text" name="phone" id="phone" autocomplete="tel" class="block w-full shadow-sm py-3 px-4 placeholder-gray-500 focus:ring-gold focus:border-gold border-gray-300 rounded-md" data-i18n="[placeholder]contactForm.phone_placeholder" placeholder="Numer telefonu (opcjonalnie)">
+                    </div>
+                    <div class="sm:col-span-2">
+                        <label for="message" class="sr-only">Wiadomość</label>
+                        <textarea id="message" name="message" rows="4" required class="block w-full shadow-sm py-3 px-4 placeholder-gray-500 focus:ring-gold focus:border-gold border-gray-300 rounded-md" data-i18n="[placeholder]contactForm.message_placeholder" placeholder="Wpisz swoją wiadomość... *"></textarea>
+                    </div>
+                    <div class="sm:col-span-2">
+                        <button type="submit" class="w-full inline-flex items-center justify-center px-6 py-3 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-gold hover:bg-gold-dark focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gold" data-i18n="contactForm.button">Wyślij Wiadomość</button>
+                    </div>
+                </form>
+                 <p class="mt-4 text-sm text-gray-500 text-center" data-i18n="contactForm.required_fields">Pola oznaczone * są wymagane.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact" class="bg-slate-900 text-gray-300">
+        <div class="max-w-7xl mx-auto py-16 px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <div class="md:col-span-2">
+                    <img src="images/GJ3.png" alt="Gold Job Agency Logo" class="h-10 mb-4">
+                    <p class="max-w-md" data-i18n="footer.mission">GOLD JOB AGENCY łączy wykwalifikowanych pracowników z całego świata z międzynarodowymi możliwościami zatrudnienia.</p>
+                    <div class="flex space-x-4 mt-6">
+                        <a href="#" class="w-10 h-10 bg-gold/20 rounded-full flex items-center justify-center text-gold hover:bg-gold hover:text-white transition-colors"><svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z" clip-rule="evenodd" /></svg></a>
+                        <a href="#" class="w-10 h-10 bg-gold/20 rounded-full flex items-center justify-center text-gold hover:bg-gold hover:text-white transition-colors"><svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M16.338 16.338H13.67V12.16c0-.995-.017-2.277-1.387-2.277-1.39 0-1.601 1.086-1.601 2.207v4.248H8.014v-8.59h2.559v1.174h.037c.356-.675 1.227-1.387 2.526-1.387 2.703 0 3.203 1.778 3.203 4.092v4.711zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.063 2.063 0 012.063-2.065 2.063 2.063 0 012.063 2.065c0 1.14-.925 2.065-2.063 2.065zm1.336 8.905H4.002v-8.59h2.671v8.59zM17.638 2H6.362A4.362 4.362 0 002 6.362v11.276A4.362 4.362 0 006.362 22h11.276A4.362 4.362 0 0022 17.638V6.362A4.362 4.362 0 0017.638 2z" clip-rule="evenodd" /></svg></a>
+                        <a href="#" class="w-10 h-10 bg-gold/20 rounded-full flex items-center justify-center text-gold hover:bg-gold hover:text-white transition-colors">
+                            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M12.525.02c1.31-.02 2.61-.01 3.91-.02.08 1.53.63 3.09 1.75 4.17 1.12 1.11 2.7 1.62 4.24 1.79v4.03c-1.44-.05-2.89-.35-4.2-.97-.57-.26-1.1-.59-1.62-.93-.01 2.92.01 5.84-.02 8.75-.08 1.4-.54 2.79-1.35 3.94-1.31 1.92-3.58 3.17-5.91 3.21-1.43.08-2.86-.31-4.08-1.03-2.02-1.19-3.44-3.37-3.65-5.71-.02-.5-.03-1-.01-1.49.18-1.9 1.12-3.72 2.58-4.96 1.66-1.44 3.98-2.13 6.15-1.72.02 1.48-.04 2.96-.04 4.44-.99-.32-2.15-.23-3.02.37-.63.41-1.11 1.04-1.36 1.75-.21.51-.15 1.07-.14 1.61.24 1.64 1.82 3.02 3.5 2.87 1.12-.01 2.19-.66 2.77-1.61.19-.33.4-.67.41-1.06.1-1.79.06-3.57.06-5.36.01-4.03-.01-8.05.02-12.07z"/></svg>
+                        </a>
+                    </div>
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold text-white tracking-wider uppercase" data-i18n="footer.services_title">Usługi</h3>
+                    <ul class="mt-4 space-y-2">
+                        <li><a href="#" class="hover:text-gold transition-colors" data-i18n="footer.service1">Rekrutacja Międzynarodowa</a></li>
+                        <li><a href="#" class="hover:text-gold transition-colors" data-i18n="footer.service2">Szkolenia Zawodowe</a></li>
+                        <li><a href="#" class="hover:text-gold transition-colors" data-i18n="footer.service3">Platforma Pracy</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold text-white tracking-wider uppercase" data-i18n="footer.contact_title">Kontakt</h3>
+                    <ul class="mt-4 space-y-2">
+                        <li><a href="mailto:info@gold-job-agency.com" class="hover:text-gold transition-colors" data-i18n="footer.contact_email">info@gold-job-agency.com</a></li>
+                        <li><span class="hover:text-gold transition-colors" data-i18n="footer.contact_support">Wsparcie 24/7</span></li>
+                        <li><a href="#" class="hover:text-gold transition-colors" data-i18n="footer.contact_terms">Regulamin</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="mt-12 border-t border-gray-700 pt-8 flex flex-col md:flex-row justify-between items-center text-sm">
+                <p class="text-gray-400 order-2 md:order-1 mt-4 md:mt-0" data-i18n="footer.copyright">© 2025 QUANTIRO Sp. z o.o., KRS: 0000845625, NIP: 7571488292. Wszelkie prawa zastrzeżone.</p>
+                <div class="flex items-center space-x-6 order-1 md:order-2">
+                   <p class="text-gray-400" data-i18n="footer.ai_powered">Napędzane przez technologie AI</p>
+                    <a href="#" class="flex items-center text-gold hover:text-gold-dark transition-colors">
+                        <svg class="w-4 h-4 mr-2" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" /></svg>
+                        <span data-i18n="footer.secure_platform">Bezpieczna Platforma</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // --- Mobile Menu Toggle ---
+            const mobileMenuButton = document.getElementById('mobile-menu-button');
+            const mobileMenu = document.getElementById('mobile-menu');
+            if (mobileMenuButton && mobileMenu) {
+                mobileMenuButton.addEventListener('click', () => {
+                    mobileMenu.classList.toggle('hidden');
+                });
+                document.querySelectorAll('#mobile-menu a[href^="#"]').forEach(anchor => {
+                    anchor.addEventListener('click', () => {
+                        mobileMenu.classList.add('hidden');
+                    });
+                });
+            }
+        
+            // --- Dynamic Heading Rotator ---
+            // This is now handled by i18n.js to allow for translation.
+        });
+    </script>
+</body>
+</html>

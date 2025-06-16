@@ -1,0 +1,124 @@
+{
+  "page_title": "GOLD JOB AGENCY - Tu carrera en Europa",
+  "nav": {
+    "about": "Sobre nosotros",
+    "services": "Servicios",
+    "employees": "Para empleados",
+    "employers": "Para empleadores",
+    "contact": "Contacto",
+    "open_menu": "Abrir menú principal"
+  },
+  "hero": {
+    "subtitle": "Somos una agencia de empleo líder especializada en conectar a empleados talentosos de Asia, África y América con las mejores empresas de la Unión Europea. Nuestra empresa fue creada para personas que buscan nuevas oportunidades profesionales adaptadas a sus cualificaciones y aspiraciones."
+  },
+  "features": {
+    "feature1_title": "Enfoque individual",
+    "feature1_desc": "Cada candidato es único para nosotros. Analizamos tus habilidades y expectativas para encontrar el puesto perfecto.",
+    "feature2_title": "Experiencia y confianza",
+    "feature2_desc": "Llevamos años operando, gozando de la confianza de cientos de empleados y empleadores. Nos centramos en la transparencia y el profesionalismo.",
+    "feature3_title": "Soporte integral",
+    "feature3_desc": "Ofrecemos soporte completo en cada etapa: desde la contratación, pasando por los trámites, hasta el alojamiento y el apoyo en el lugar."
+  },
+  "quality": {
+    "title": "Garantía de calidad y seguridad",
+    "desc": "Nuestros muchos años de experiencia, durante los cuales a menudo nos hemos enfrentado a situaciones de crisis, nos han permitido desarrollar un sistema en el que el empleado tiene garantizado un empleo con un empleador de confianza y, por otro lado, el empleador tiene la garantía de contratar a un empleado cualificado.",
+    "button": "Somos una Agencia de Empleo que opera legalmente, registrada en KRAZ con el número 34778"
+  },
+  "services": {
+    "title": "Nuestros servicios",
+    "subtitle1": "Nos especializamos en conectar a empleadores con empleados cualificados de todo el mundo. Nuestros servicios cubren una gama completa de apoyo, desde la contratación hasta la adaptación en un nuevo lugar de trabajo.",
+    "subtitle2": "Nuestros expertos han estado activos en el mercado de intermediación laboral desde 2017. Desde entonces, hemos conectado con éxito a empleados y empleadores en países como Polonia, Lituania, Alemania y Suecia. Cientos de empleados de Asia, América del Sur y Europa del Este han confiado en nosotros.",
+    "service1_title": "Contratación internacional",
+    "service1_desc": "Contratación integral de empleados cualificados de países de la UE y de fuera de la UE. Verificamos cualificaciones, experiencia y habilidades lingüísticas.",
+    "service1_item1": "Verificación de documentos y cualificaciones",
+    "service1_item2": "Pruebas de idioma y competencia",
+    "service1_item3": "Apoyo en el proceso de visado",
+    "service1_item4": "Preparación para entrevistas de trabajo",
+    "service2_title": "Gestión de trámites legales y de RR.HH.",
+    "service2_desc": "Nos encargamos de la preparación y gestión de todos los documentos relacionados con el empleo, desde contratos, pasando por registros en ZUS, hasta el mantenimiento de registros de empleados y nóminas.",
+    "service2_item1": "Declaraciones de encomienda de trabajo",
+    "service2_item2": "Permisos de trabajo",
+    "service2_item3": "Formación en salud y seguridad",
+    "service2_item4": "Adaptación multilingüe de la documentación del empleado",
+    "service3_title": "Formación y preparación",
+    "service3_desc": "Formación profesional, cursos de idiomas y programas de adaptación para prepararse para trabajar en Europa.",
+    "service3_item1": "Cursos de idiomas europeos (alemán, inglés, holandés)",
+    "service3_item2": "Formación y certificados del sector",
+    "service3_item3": "Programas de adaptación cultural",
+    "service3_item4": "Apoyo de tutoría después del empleo"
+  },
+  "employees": {
+    "title": "Categorías de empleo populares",
+    "subtitle": "Encuentra un trabajo en la industria que te interese. Ofrecemos puestos en varios sectores en toda Europa.",
+    "cat1": "Construcción",
+    "cat1_desc": "Trabajadores de la construcción, albañiles, carpinteros",
+    "cat1_loc": "Países Bajos • Bélgica • Alemania • Francia",
+    "cat2": "Soldadura",
+    "cat2_desc": "Soldadores TIG, MIG, MAG",
+    "cat2_loc": "Países Bajos • Bélgica • Alemania • Francia",
+    "cat3": "Logística",
+    "cat3_desc": "Trabajadores de almacén, operadores de carretillas elevadoras",
+    "cat3_loc": "Países Bajos • Bélgica • Alemania • Francia",
+    "cat4": "Producción",
+    "cat4_desc": "Trabajadores de línea de producción, operadores de máquinas",
+    "cat4_loc": "Países Bajos • Bélgica • Alemania • Francia",
+    "cat5": "Agricultura",
+    "cat5_desc": "Trabajadores de temporada, jardineros",
+    "cat5_loc": "Países Bajos • Bélgica • Alemania • Francia",
+    "cat6": "Limpieza",
+    "cat6_desc": "Personal de limpieza en hoteles y oficinas",
+    "cat6_loc": "Países Bajos • Bélgica • Alemania • Francia",
+    "dynamic_heading": {
+      "text1": "EMPLEO LEGAL",
+      "text2": "SERVICIO DE DOCUMENTACIÓN",
+      "text3": "FORMACIÓN"
+    },
+    "title_part1": "Para ",
+    "title_part2": "Empleados"
+  },
+  "employers": {
+    "title": "Servicios para empleadores",
+    "subtitle": "Soluciones integrales de RR.HH. para empresas",
+    "solutions_title": "Nuestras soluciones",
+    "solution1_title": "Contratación y selección integral de candidatos",
+    "solution1_desc": "Llevamos a cabo todo el proceso de contratación, desde la búsqueda de candidatos, pasando por la selección de CV, las entrevistas, hasta la presentación al empleador de las personas seleccionadas y más adecuadas. Esto le ahorra tiempo y le garantiza que recibirá candidatos con las cualificaciones y predisposiciones adecuadas.",
+    "solution2_title": "Gestión de trámites legales y de RR.HH.",
+    "solution2_desc": "Nos encargamos de la preparación y gestión de todos los documentos relacionados con el empleo, desde contratos, pasando por los registros en la seguridad social, hasta el mantenimiento de la documentación de los empleados y la nómina. Garantizamos la legalidad y la seguridad en el empleo, también para los empleados extranjeros.",
+    "solution3_title": "Consultoría y soporte de RR.HH.",
+    "solution3_desc": "Ofrecemos asesoramiento profesional en la selección de empleados, el análisis de las necesidades de personal y la optimización de los procesos de empleo. Ayudamos a crear equipos eficaces y apoyamos el desarrollo de la marca de empleador de su empresa.",
+    "solution4_title": "Contratación rápida y flexible de trabajadores temporales",
+    "solution4_desc": "Ofrecemos la posibilidad de encontrar rápidamente empleados para sustituciones, proyectos de temporada o emergencias. Gracias a una amplia base de candidatos y a procesos de contratación eficientes, respondemos instantáneamente a sus necesidades actuales de personal.",
+    "solution5_title": "Promoción de ofertas de empleo y marca de empleador",
+    "solution5_desc": "Garantizamos una promoción eficaz de sus ofertas de empleo en portales de empleo, en redes sociales y en canales de comunicación específicos del sector. Apoyamos la construcción de una imagen positiva de su empresa como un empleador atractivo en el mercado laboral."
+  },
+  "contactForm": {
+    "title": "Contáctanos",
+    "desc": "¿Tienes preguntas o quieres colaborar? Rellena el siguiente formulario y nuestro equipo se pondrá en contacto contigo lo antes posible.",
+    "name_placeholder": "Nombre completo *",
+    "email_placeholder": "Dirección de correo electrónico *",
+    "phone_placeholder": "Número de teléfono (opcional)",
+    "message_placeholder": "Escribe tu mensaje... *",
+    "button": "Enviar mensaje",
+    "required_fields": "Los campos marcados con * son obligatorios."
+  },
+  "footer": {
+    "mission": "GOLD JOB AGENCY conecta a empleados cualificados de todo el mundo con oportunidades de empleo internacionales.",
+    "services_title": "Servicios",
+    "service1": "Contratación internacional",
+    "service2": "Formación profesional",
+    "service3": "Plataforma de empleo",
+    "contact_title": "Contacto",
+    "contact_email": "info@gold-job-agency.com",
+    "contact_support": "Soporte 24/7",
+    "contact_terms": "Términos de servicio",
+    "copyright": "© 2025 QUANTIRO Sp. z o.o., KRS: 0000845625, NIP: 7571488292. Todos los derechos reservados.",
+    "ai_powered": "Impulsado por tecnologías de IA",
+    "secure_platform": "Plataforma segura"
+  },
+  "thankYouPage": {
+    "pageTitle": "¡Gracias! - GOLD JOB AGENCY",
+    "title": "¡Gracias por tu mensaje!",
+    "desc": "Hemos recibido tu consulta y nos pondremos en contacto contigo lo antes posible.",
+    "button": "Volver a la página de inicio"
+  }
+} 

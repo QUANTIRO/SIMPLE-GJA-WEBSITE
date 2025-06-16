@@ -1,0 +1,33 @@
+GOLD JOB AGENCY - Instrukcje instalacji
+=====================================
+
+JAK URUCHOMIĆ STRONĘ:
+
+1. PODSTAWOWE URUCHOMIENIE:
+   - Rozpakuj archiwum do dowolnego folderu
+   - Otwórz plik "index.html" w przeglądarce
+   - Strona działa bez internetu (wszystkie pliki lokalne)
+
+2. STRUKTURA PLIKÓW:
+   ├── index.html (główny plik strony)
+   ├── images/ (wszystkie obrazki)
+   ├── INSTRUKCJE.txt (ten plik)
+   └── README.txt (opis techniczny)
+
+3. KOMPATYBILNOŚĆ:
+   - Działa we wszystkich współczesnych przeglądarkach
+   - Responsywny design (telefon, tablet, komputer)
+   - Nie wymaga serwera ani internetu
+
+4. EDYCJA TREŚCI:
+   - Otwórz index.html w edytorze tekstu
+   - Znajdź sekcję którą chcesz zmienić
+   - Zapisz i odśwież przeglądarkę
+
+5. WSPARCIE:
+   - Plik gotowy do prezentacji klientom
+   - Kompletna strona z polską treścią
+   - Wszystkie obrazki dołączone
+
+Data: 15 czerwca 2025
+Wersja: 1.0 (Standalone)
