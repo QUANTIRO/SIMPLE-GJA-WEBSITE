@@ -34,12 +34,12 @@
     "service1_item2": "Testy językowe i kompetencyjne",
     "service1_item3": "Wsparcie w procesie wizowym",
     "service1_item4": "Przygotowanie do rozmów kwalifikacyjnych",
-    "service2_title": "Dopasowanie Ogłoszeń",
-    "service2_desc": "Zaawansowana platforma AI łącząca kandydatów z idealną pracą w oparciu o umiejętności, doświadczenie i preferencje.",
-    "service2_item1": "Inteligentne dopasowanie AI",
-    "service2_item2": "Baza tysięcy aktualnych ofert",
-    "service2_item3": "Personalizowane rekomendacje",
-    "service2_item4": "Śledzenie aplikacji w czasie rzeczywistym",
+    "service2_title": "Obsługa formalności kadrowych i prawnych",
+    "service2_desc": "Zajmujemy się przygotowaniem i obsługą wszystkich dokumentów związanych z zatrudnieniem – od umów, przez zgłoszenia do ZUS, po prowadzenie dokumentacji pracowniczej i rozliczenia płacowe.",
+    "service2_item1": "Oświadczenia o powierzeniu pracy",
+    "service2_item2": "Zezwolenia na pracę",
+    "service2_item3": "Szkolenia BHP",
+    "service2_item4": "Wielojęzyczne dostosowanie dokumentacji pracowniczej",
     "service3_title": "Szkolenia i Przygotowanie",
     "service3_desc": "Profesjonalne szkolenia branżowe, kursy językowe i programy adaptacyjne przygotowujące do pracy w Europie.",
     "service3_item1": "Kursy języków europejskich (niemiecki, angielski, holenderski)",
@@ -68,7 +68,11 @@
     "cat6": "Sprzątanie",
     "cat6_desc": "Personel sprzątający w hotelach i biurach",
     "cat6_loc": "Holandia • Belgia • Niemcy • Francja",
-    "dynamic_heading": "OBSŁUGA DOKUMENTACYJNA"
+    "dynamic_heading": {
+      "text1": "LEGALNE ZATRUDNIENIE",
+      "text2": "OBSŁUGA DOKUMENTACYJNA",
+      "text3": "SZKOLENIA"
+    }
   },
   "employers": {
     "title": "Usługi dla Pracodawców",
@@ -96,11 +100,6 @@
     "required_fields": "Pola oznaczone * są wymagane.",
     "or_contact_directly": "Lub skontaktuj się z nami bezpośrednio:"
   },
-  "floating_buttons": {
-    "whatsapp_tooltip": "Napisz na WhatsApp",
-    "telegram_tooltip": "Napisz na Telegram",
-    "phone_tooltip": "Zadzwoń do nas"
-  },
   "footer": {
     "mission": "GOLD JOB AGENCY łączy wykwalifikowanych pracowników z całego świata z międzynarodowymi możliwościami zatrudnienia.",
     "services_title": "Usługi",
@@ -108,8 +107,6 @@
     "service2": "Szkolenia Zawodowe",
     "service3": "Platforma Pracy",
     "contact_title": "Kontakt",
-    "contact_email": "info@gold-job-agency.com",
-    "contact_support": "Wsparcie 24/7",
     "contact_terms": "Regulamin",
     "copyright": "© 2025 QUANTIRO Sp. z o.o., KRS: 0000845625, NIP: 7571488292. Wszelkie prawa zastrzeżone.",
     "ai_powered": "Napędzane przez technologie AI",
@@ -117,7 +114,7 @@
   },
   "thankYouPage": {
     "title": "Dziękujemy za Twoją wiadomość!",
-    "desc": "Otrzymaliśmy Twoje zapytanie i skontaktujemy się z Tobą najszybciej jak to możliwe.",
+    "desc": "Otrzymaliśmy Twoje zapytanie i skontaktujemy się z Tobą tak szybko, jak to możliwe.",
     "button": "Wróć na stronę główną"
   }
-} 
+}
