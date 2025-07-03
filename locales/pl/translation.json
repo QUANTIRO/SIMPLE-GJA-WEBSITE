@@ -34,12 +34,12 @@
     "service1_item2": "Testy językowe i kompetencyjne",
     "service1_item3": "Wsparcie w procesie wizowym",
     "service1_item4": "Przygotowanie do rozmów kwalifikacyjnych",
-    "service2_title": "Obsługa formalności kadrowych i prawnych",
-    "service2_desc": "Zajmujemy się przygotowaniem i obsługą wszystkich dokumentów związanych z zatrudnieniem – od umów, przez zgłoszenia do ZUS, po prowadzenie dokumentacji pracowniczej i rozliczenia płacowe.",
-    "service2_item1": "Oświadczenia o powierzeniu pracy",
-    "service2_item2": "Zezwolenia na pracę",
-    "service2_item3": "Szkolenia BHP",
-    "service2_item4": "Wielojęzyczne dostosowanie dokumentacji pracowniczej",
+    "service2_title": "Dopasowanie Ogłoszeń",
+    "service2_desc": "Zaawansowana platforma AI łącząca kandydatów z idealną pracą w oparciu o umiejętności, doświadczenie i preferencje.",
+    "service2_item1": "Inteligentne dopasowanie AI",
+    "service2_item2": "Baza tysięcy aktualnych ofert",
+    "service2_item3": "Personalizowane rekomendacje",
+    "service2_item4": "Śledzenie aplikacji w czasie rzeczywistym",
     "service3_title": "Szkolenia i Przygotowanie",
     "service3_desc": "Profesjonalne szkolenia branżowe, kursy językowe i programy adaptacyjne przygotowujące do pracy w Europie.",
     "service3_item1": "Kursy języków europejskich (niemiecki, angielski, holenderski)",
@@ -68,13 +68,7 @@
     "cat6": "Sprzątanie",
     "cat6_desc": "Personel sprzątający w hotelach i biurach",
     "cat6_loc": "Holandia • Belgia • Niemcy • Francja",
-    "dynamic_heading": {
-      "text1": "LEGALNE ZATRUDNIENIE",
-      "text2": "OBSŁUGA DOKUMENTACYJNA",
-      "text3": "SZKOLENIA"
-    },
-    "title_part1": "Dla ",
-    "title_part2": "Pracowników"
+    "dynamic_heading": "OBSŁUGA DOKUMENTACYJNA"
   },
   "employers": {
     "title": "Usługi dla Pracodawców",
@@ -99,7 +93,13 @@
     "phone_placeholder": "Numer telefonu (opcjonalnie)",
     "message_placeholder": "Wpisz swoją wiadomość... *",
     "button": "Wyślij Wiadomość",
-    "required_fields": "Pola oznaczone * są wymagane."
+    "required_fields": "Pola oznaczone * są wymagane.",
+    "or_contact_directly": "Lub skontaktuj się z nami bezpośrednio:"
+  },
+  "floating_buttons": {
+    "whatsapp_tooltip": "Napisz na WhatsApp",
+    "telegram_tooltip": "Napisz na Telegram",
+    "phone_tooltip": "Zadzwoń do nas"
   },
   "footer": {
     "mission": "GOLD JOB AGENCY łączy wykwalifikowanych pracowników z całego świata z międzynarodowymi możliwościami zatrudnienia.",

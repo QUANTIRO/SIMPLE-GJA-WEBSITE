@@ -92,28 +92,39 @@
     "solution5_desc": "Chúng tôi đảm bảo quảng bá hiệu quả các lời mời làm việc của bạn trên các cổng thông tin việc làm, trên phương tiện truyền thông xã hội và trong các kênh truyền thông chuyên ngành. Chúng tôi hỗ trợ xây dựng hình ảnh tích cực của công ty bạn như một nhà tuyển dụng hấp dẫn trên thị trường lao động."
   },
   "contactForm": {
-    "title": "Liên hệ chúng tôi",
+    "title": "Liên hệ với chúng tôi",
     "desc": "Bạn có câu hỏi hoặc muốn hợp tác? Điền vào biểu mẫu dưới đây và nhóm của chúng tôi sẽ liên hệ lại với bạn sớm nhất có thể.",
-    "name_placeholder": "Họ và tên *",
+    "name_placeholder": "Họ và Tên *",
     "email_placeholder": "Địa chỉ email *",
     "phone_placeholder": "Số điện thoại (tùy chọn)",
     "message_placeholder": "Nhập tin nhắn của bạn... *",
     "button": "Gửi tin nhắn",
-    "required_fields": "Các trường được đánh dấu * là bắt buộc."
+    "required_fields": "Các trường được đánh dấu * là bắt buộc.",
+    "or_contact_directly": "Hoặc liên hệ trực tiếp với chúng tôi:",
+    "phone_contact": "Hoặc gọi: +48 530 009 316",
+    "whatsapp_message": "Xin chào! Tôi muốn nhận thêm thông tin về các dịch vụ của GOLD JOB AGENCY."
+  },
+  "floating_buttons": {
+    "whatsapp_tooltip": "Nhắn tin WhatsApp",
+    "telegram_tooltip": "Nhắn tin Telegram",
+    "phone_tooltip": "Gọi cho chúng tôi"
   },
   "footer": {
-    "mission": "GOLD JOB AGENCY kết nối những nhân viên có trình độ từ khắp nơi trên thế giới với các cơ hội việc làm quốc tế.",
-    "services_title": "Dịch vụ",
-    "service1": "Tuyển dụng quốc tế",
-    "service2": "Đào tạo nghề",
-    "service3": "Nền tảng việc làm",
-    "contact_title": "Liên hệ",
+    "mission": "GOLD JOB AGENCY kết nối những người lao động có tay nghề từ khắp nơi trên thế giới với các cơ hội việc làm quốc tế.",
+    "services_title": "Dịch Vụ",
+    "service1": "Tuyển Dụng Quốc Tế",
+    "service2": "Đào Tạo Nghề Nghiệp",
+    "service3": "Nền Tảng Việc Làm",
+    "contact_title": "Liên Hệ",
+    "contact_phone": "+48 530 009 316",
     "contact_email": "info@gold-job-agency.com",
-    "contact_support": "Hỗ trợ 24/7",
-    "contact_terms": "Điều khoản dịch vụ",
-    "copyright": "© 2025 QUANTIRO Sp. z o.o., KRS: 0000845625, NIP: 7571488292. Mọi quyền được bảo lưu.",
-    "ai_powered": "Được cung cấp bởi công nghệ AI",
-    "secure_platform": "Nền tảng an toàn"
+    "contact_support": "Hỗ Trợ 24/7",
+    "contact_terms": "Điều Khoản Dịch Vụ",
+    "contact_whatsapp": "WhatsApp",
+    "contact_telegram": "Telegram",
+    "copyright": "© 2025 QUANTIRO Sp. z o.o., KRS: 0000845625, NIP: 7571488292. Bảo lưu mọi quyền.",
+    "ai_powered": "Được hỗ trợ bởi công nghệ AI",
+    "secure_platform": "Nền Tảng An Toàn"
   },
   "thankYouPage": {
     "pageTitle": "Cảm ơn bạn! - GOLD JOB AGENCY",

@@ -93,26 +93,37 @@
   },
   "contactForm": {
     "title": "Kontaktieren Sie uns",
-    "desc": "Haben Sie Fragen oder möchten Sie zusammenarbeiten? Füllen Sie das folgende Formular aus, und unser Team wird sich so schnell wie möglich bei Ihnen melden.",
-    "name_placeholder": "Vollständiger Name *",
+    "desc": "Haben Sie Fragen oder möchten Sie mit uns zusammenarbeiten? Füllen Sie das Formular aus, und unser Team wird sich so schnell wie möglich bei Ihnen melden.",
+    "name_placeholder": "Vor- und Nachname *",
     "email_placeholder": "E-Mail-Adresse *",
     "phone_placeholder": "Telefonnummer (optional)",
     "message_placeholder": "Geben Sie Ihre Nachricht ein... *",
     "button": "Nachricht senden",
-    "required_fields": "Mit * markierte Felder sind Pflichtfelder."
+    "required_fields": "Mit * gekennzeichnete Felder sind Pflichtfelder.",
+    "or_contact_directly": "Oder kontaktieren Sie uns direkt:",
+    "phone_contact": "Oder rufen Sie an: +48 530 009 316",
+    "whatsapp_message": "Hallo! Ich möchte mehr Informationen über die Dienstleistungen von GOLD JOB AGENCY erhalten."
+  },
+  "floating_buttons": {
+    "whatsapp_tooltip": "WhatsApp-Nachricht",
+    "telegram_tooltip": "Telegram-Nachricht",
+    "phone_tooltip": "Rufen Sie uns an"
   },
   "footer": {
-    "mission": "GOLD JOB AGENCY verbindet qualifizierte Mitarbeiter aus aller Welt mit internationalen Beschäftigungsmöglichkeiten.",
+    "mission": "GOLD JOB AGENCY verbindet qualifizierte Arbeitskräfte aus aller Welt mit internationalen Beschäftigungsmöglichkeiten.",
     "services_title": "Dienstleistungen",
     "service1": "Internationale Rekrutierung",
     "service2": "Berufsausbildung",
-    "service3": "Jobplattform",
+    "service3": "Job-Plattform",
     "contact_title": "Kontakt",
+    "contact_phone": "+48 530 009 316",
     "contact_email": "info@gold-job-agency.com",
-    "contact_support": "24/7-Support",
-    "contact_terms": "Nutzungsbedingungen",
+    "contact_support": "24/7 Support",
+    "contact_terms": "Geschäftsbedingungen",
+    "contact_whatsapp": "WhatsApp",
+    "contact_telegram": "Telegram",
     "copyright": "© 2025 QUANTIRO Sp. z o.o., KRS: 0000845625, NIP: 7571488292. Alle Rechte vorbehalten.",
-    "ai_powered": "Angetrieben durch KI-Technologien",
+    "ai_powered": "Angetrieben von KI-Technologien",
     "secure_platform": "Sichere Plattform"
   },
   "thankYouPage": {

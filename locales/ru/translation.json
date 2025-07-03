@@ -93,27 +93,38 @@
   },
   "contactForm": {
     "title": "Свяжитесь с нами",
-    "desc": "У вас есть вопросы или вы хотите сотрудничать? Заполните форму ниже, и наша команда свяжется с вами как можно скорее.",
-    "name_placeholder": "Полное имя *",
+    "desc": "Есть вопросы или хотите сотрудничать? Заполните форму ниже, и наша команда свяжется с вами как можно скорее.",
+    "name_placeholder": "Имя и фамилия *",
     "email_placeholder": "Адрес электронной почты *",
     "phone_placeholder": "Номер телефона (необязательно)",
     "message_placeholder": "Введите ваше сообщение... *",
     "button": "Отправить сообщение",
-    "required_fields": "Поля, отмеченные * обязательны для заполнения."
+    "required_fields": "Поля, отмеченные *, обязательны для заполнения.",
+    "or_contact_directly": "Или свяжитесь с нами напрямую:",
+    "phone_contact": "Или звоните: +48 530 009 316",
+    "whatsapp_message": "Привет! Я хотел бы получить больше информации об услугах GOLD JOB AGENCY."
+  },
+  "floating_buttons": {
+    "whatsapp_tooltip": "Сообщение в WhatsApp",
+    "telegram_tooltip": "Сообщение в Telegram",
+    "phone_tooltip": "Позвонить нам"
   },
   "footer": {
     "mission": "GOLD JOB AGENCY соединяет квалифицированных работников со всего мира с международными возможностями трудоустройства.",
     "services_title": "Услуги",
-    "service1": "Международный набор",
-    "service2": "Профессиональное обучение",
-    "service3": "Платформа вакансий",
-    "contact_title": "Контакты",
+    "service1": "Международный Рекрутинг",
+    "service2": "Профессиональное Обучение",
+    "service3": "Платформа Работы",
+    "contact_title": "Контакт",
+    "contact_phone": "+48 530 009 316",
     "contact_email": "info@gold-job-agency.com",
     "contact_support": "Поддержка 24/7",
-    "contact_terms": "Условия предоставления услуг",
+    "contact_terms": "Условия Обслуживания",
+    "contact_whatsapp": "WhatsApp",
+    "contact_telegram": "Telegram",
     "copyright": "© 2025 QUANTIRO Sp. z o.o., KRS: 0000845625, NIP: 7571488292. Все права защищены.",
-    "ai_powered": "На базе технологий ИИ",
-    "secure_platform": "Безопасная платформа"
+    "ai_powered": "На основе ИИ технологий",
+    "secure_platform": "Безопасная Платформа"
   },
   "thankYouPage": {
     "pageTitle": "Спасибо! - GOLD JOB AGENCY",

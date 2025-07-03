@@ -92,28 +92,37 @@
     "solution5_desc": "Garantimos a promoção eficaz de suas ofertas de emprego em portais de emprego, mídias sociais e canais de comunicação específicos do setor. Apoiamos a construção de uma imagem positiva de sua empresa como um empregador atraente no mercado de trabalho."
   },
   "contactForm": {
-    "title": "Entre em contato conosco",
-    "desc": "Você tem perguntas ou quer colaborar? Preencha o formulário abaixo e nossa equipe entrará em contato com você o mais breve possível.",
-    "name_placeholder": "Nome completo *",
+    "title": "Contate-Nos",
+    "desc": "Tem perguntas ou quer colaborar? Preencha o formulário abaixo e nossa equipe entrará em contato com você o mais breve possível.",
+    "name_placeholder": "Nome e Sobrenome *",
     "email_placeholder": "Endereço de e-mail *",
     "phone_placeholder": "Número de telefone (opcional)",
     "message_placeholder": "Digite sua mensagem... *",
-    "button": "Enviar mensagem",
-    "required_fields": "Campos marcados com * são obrigatórios."
+    "button": "Enviar Mensagem",
+    "required_fields": "Campos marcados com * são obrigatórios.",
+    "or_contact_directly": "Ou entre em contato conosco diretamente:"
+  },
+  "floating_buttons": {
+    "whatsapp_tooltip": "Mensagem no WhatsApp",
+    "telegram_tooltip": "Mensagem no Telegram",
+    "phone_tooltip": "Ligue para nós"
   },
   "footer": {
-    "mission": "A GOLD JOB AGENCY conecta funcionários qualificados de todo o mundo com oportunidades de emprego internacionais.",
+    "mission": "A GOLD JOB AGENCY conecta trabalhadores qualificados de todo o mundo com oportunidades de emprego internacionais.",
     "services_title": "Serviços",
-    "service1": "Recrutamento internacional",
-    "service2": "Formação profissional",
-    "service3": "Plataforma de empregos",
+    "service1": "Recrutamento Internacional",
+    "service2": "Treinamento Profissional",
+    "service3": "Plataforma de Empregos",
     "contact_title": "Contato",
+    "contact_phone": "+48 530 009 316",
     "contact_email": "info@gold-job-agency.com",
     "contact_support": "Suporte 24/7",
-    "contact_terms": "Termos de serviço",
+    "contact_terms": "Termos de Serviço",
+    "contact_whatsapp": "WhatsApp",
+    "contact_telegram": "Telegram",
     "copyright": "© 2025 QUANTIRO Sp. z o.o., KRS: 0000845625, NIP: 7571488292. Todos os direitos reservados.",
-    "ai_powered": "Desenvolvido por tecnologias de IA",
-    "secure_platform": "Plataforma segura"
+    "ai_powered": "Desenvolvido com tecnologias de IA",
+    "secure_platform": "Plataforma Segura"
   },
   "thankYouPage": {
     "pageTitle": "Obrigado! - GOLD JOB AGENCY",

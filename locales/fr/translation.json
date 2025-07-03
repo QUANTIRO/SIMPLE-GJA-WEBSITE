@@ -93,27 +93,36 @@
   },
   "contactForm": {
     "title": "Contactez-nous",
-    "desc": "Vous avez des questions ou souhaitez collaborer ? Remplissez le formulaire ci-dessous et notre équipe vous contactera dans les plus brefs délais.",
-    "name_placeholder": "Nom complet *",
+    "desc": "Vous avez des questions ou souhaitez collaborer ? Remplissez le formulaire ci-dessous et notre équipe vous répondra dans les plus brefs délais.",
+    "name_placeholder": "Nom et Prénom *",
     "email_placeholder": "Adresse e-mail *",
     "phone_placeholder": "Numéro de téléphone (facultatif)",
     "message_placeholder": "Entrez votre message... *",
-    "button": "Envoyer le message",
-    "required_fields": "Les champs marqués d'un * sont obligatoires."
+    "button": "Envoyer le Message",
+    "required_fields": "Les champs marqués d'un * sont obligatoires.",
+    "or_contact_directly": "Ou contactez-nous directement :"
+  },
+  "floating_buttons": {
+    "whatsapp_tooltip": "Message WhatsApp",
+    "telegram_tooltip": "Message Telegram",
+    "phone_tooltip": "Appelez-nous"
   },
   "footer": {
-    "mission": "GOLD JOB AGENCY met en relation des employés qualifiés du monde entier avec des opportunités d'emploi internationales.",
+    "mission": "GOLD JOB AGENCY met en relation des travailleurs qualifiés du monde entier avec des opportunités d'emploi internationales.",
     "services_title": "Services",
-    "service1": "Recrutement international",
-    "service2": "Formation professionnelle",
-    "service3": "Plateforme d'emploi",
+    "service1": "Recrutement International",
+    "service2": "Formation Professionnelle",
+    "service3": "Plateforme d'Emploi",
     "contact_title": "Contact",
+    "contact_phone": "+48 530 009 316",
     "contact_email": "info@gold-job-agency.com",
     "contact_support": "Support 24/7",
-    "contact_terms": "Conditions d'utilisation",
-    "copyright": "© 2025 QUANTIRO Sp. z o.o., KRS : 0000845625, NIP : 7571488292. Tous droits réservés.",
-    "ai_powered": "Propulsé par les technologies de l'IA",
-    "secure_platform": "Plateforme sécurisée"
+    "contact_terms": "Conditions de Service",
+    "contact_whatsapp": "WhatsApp",
+    "contact_telegram": "Telegram",
+    "copyright": "© 2025 QUANTIRO Sp. z o.o., KRS: 0000845625, NIP: 7571488292. Tous droits réservés.",
+    "ai_powered": "Alimenté par les technologies IA",
+    "secure_platform": "Plateforme Sécurisée"
   },
   "thankYouPage": {
     "pageTitle": "Merci ! - GOLD JOB AGENCY",

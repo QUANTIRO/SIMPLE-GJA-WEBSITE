@@ -93,27 +93,38 @@
   },
   "contactForm": {
     "title": "Зв'яжіться з нами",
-    "desc": "Маєте запитання або хочете співпрацювати? Заповніть форму нижче, і наша команда зв'яжеться з вами якомога швидше.",
-    "name_placeholder": "Повне ім'я *",
-    "email_placeholder": "Адреса електронної пошти *",
+    "desc": "Маєте запитання або хочете співпрацювати? Заповніть форму нижче, і наша команда зв'яжеться з вами якнайшвидше.",
+    "name_placeholder": "Ім'я та прізвище *",
+    "email_placeholder": "Електронна адреса *",
     "phone_placeholder": "Номер телефону (необов'язково)",
     "message_placeholder": "Введіть ваше повідомлення... *",
     "button": "Надіслати повідомлення",
-    "required_fields": "Поля, позначені * є обов'язковими."
+    "required_fields": "Поля, позначені *, є обов'язковими.",
+    "or_contact_directly": "Або зв'яжіться з нами напряму:",
+    "phone_contact": "Або телефонуйте: +48 530 009 316",
+    "whatsapp_message": "Привіт! Я хотів би отримати більше інформації про послуги GOLD JOB AGENCY."
+  },
+  "floating_buttons": {
+    "whatsapp_tooltip": "Повідомлення WhatsApp",
+    "telegram_tooltip": "Повідомлення Telegram",
+    "phone_tooltip": "Зателефонуйте нам"
   },
   "footer": {
-    "mission": "GOLD JOB AGENCY поєднує кваліфікованих працівників з усього світу з міжнародними можливостями працевлаштування.",
+    "mission": "GOLD JOB AGENCY з'єднує кваліфікованих працівників з усього світу з міжнародними можливостями працевлаштування.",
     "services_title": "Послуги",
-    "service1": "Міжнародний набір",
-    "service2": "Професійне навчання",
-    "service3": "Платформа вакансій",
-    "contact_title": "Контакти",
+    "service1": "Міжнародний Рекрутинг",
+    "service2": "Професійне Навчання",
+    "service3": "Платформа Роботи",
+    "contact_title": "Контакт",
+    "contact_phone": "+48 530 009 316",
     "contact_email": "info@gold-job-agency.com",
     "contact_support": "Підтримка 24/7",
-    "contact_terms": "Умови надання послуг",
-    "copyright": "© 2025 QUANTIRO Sp. z o.o., KRS: 0000845625, NIP: 7571488292. Всі права захищено.",
-    "ai_powered": "На основі технологій ШІ",
-    "secure_platform": "Безпечна платформа"
+    "contact_terms": "Умови Користування",
+    "contact_whatsapp": "WhatsApp",
+    "contact_telegram": "Telegram",
+    "copyright": "© 2025 QUANTIRO Sp. z o.o., KRS: 0000845625, NIP: 7571488292. Усі права захищені.",
+    "ai_powered": "На основі ШІ технологій",
+    "secure_platform": "Безпечна Платформа"
   },
   "thankYouPage": {
     "pageTitle": "Дякуємо! - GOLD JOB AGENCY",

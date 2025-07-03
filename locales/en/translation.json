@@ -93,24 +93,35 @@
   },
   "contactForm": {
     "title": "Contact Us",
-    "desc": "Do you have questions or want to cooperate? Fill out the form below, and our team will get back to you as soon as possible.",
-    "name_placeholder": "Full Name *",
-    "email_placeholder": "Email Address *",
-    "phone_placeholder": "Phone Number (optional)",
+    "desc": "Have questions or want to collaborate? Fill out the form below, and our team will get back to you as soon as possible.",
+    "name_placeholder": "Name and Surname *",
+    "email_placeholder": "Email address *",
+    "phone_placeholder": "Phone number (optional)",
     "message_placeholder": "Enter your message... *",
     "button": "Send Message",
-    "required_fields": "Fields marked with * are required."
+    "required_fields": "Fields marked with * are required.",
+    "or_contact_directly": "Or contact us directly:",
+    "phone_contact": "Or call: +48 530 009 316",
+    "whatsapp_message": "Hello! I would like to get more information about GOLD JOB AGENCY services."
+  },
+  "floating_buttons": {
+    "whatsapp_tooltip": "Message on WhatsApp",
+    "telegram_tooltip": "Message on Telegram",
+    "phone_tooltip": "Call us"
   },
   "footer": {
-    "mission": "GOLD JOB AGENCY connects qualified employees from all over the world with international employment opportunities.",
+    "mission": "GOLD JOB AGENCY connects skilled workers from around the world with international employment opportunities.",
     "services_title": "Services",
     "service1": "International Recruitment",
     "service2": "Vocational Training",
     "service3": "Job Platform",
     "contact_title": "Contact",
+    "contact_phone": "+48 530 009 316",
     "contact_email": "info@gold-job-agency.com",
     "contact_support": "24/7 Support",
     "contact_terms": "Terms of Service",
+    "contact_whatsapp": "WhatsApp",
+    "contact_telegram": "Telegram",
     "copyright": "© 2025 QUANTIRO Sp. z o.o., KRS: 0000845625, NIP: 7571488292. All rights reserved.",
     "ai_powered": "Powered by AI technologies",
     "secure_platform": "Secure Platform"
