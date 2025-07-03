@@ -9,51 +9,47 @@
     "open_menu": "Otwórz menu główne"
   },
   "hero": {
-    "subtitle": "Jesteśmy wiodącą agencją zatrudnienia, specjalizującą się w łączeniu utalentowanych pracowników z Azji, Afryki i Ameryki z najlepszymi firmami w Unii Europejskiej. Nasza firma powstała z myślą o osobach poszukujących nowych możliwości zawodowych, dostosowanych do ich kwalifikacji i aspiracji."
+    "subtitle": "Jesteśmy wiodącą Agencją pośrednictwa pracy, specjalizującą się w łączeniu utalentowanych pracowników z Azji, Afryki i Ameryki z czołowymi firmami na terenie Unii Europejskiej. Nasza firma powstała z myślą o osobach poszukujących nowych możliwości zawodowych, dostosowanych do ich kwalifikacji i aspiracji."
   },
   "features": {
-    "feature1_title": "Indywidualne Podejście",
+    "feature1_title": "Indywidualne podejście",
     "feature1_desc": "Każdy kandydat jest dla nas wyjątkowy. Analizujemy Twoje umiejętności i oczekiwania, aby znaleźć idealne stanowisko.",
-    "feature2_title": "Doświadczenie i Zaufanie",
+    "feature2_title": "Doświadczenie i zaufanie",
     "feature2_desc": "Działamy od lat, ciesząc się zaufaniem setek pracowników i pracodawców. Stawiamy na transparentność i profesjonalizm.",
-    "feature3_title": "Kompleksowe Wsparcie",
-    "feature3_desc": "Zapewniamy pełne wsparcie na każdym etapie – od rekrutacji, przez formalności, po zakwaterowanie i pomoc na miejscu."
+    "feature3_title": "Kompleksowe wsparcie",
+    "feature3_desc": "Zapewniamy pełne wsparcie na każdym etapie – od rekrutacji, przez formalności, po zakwaterowanie i wsparcie na miejscu."
   },
   "quality": {
     "title": "Gwarancja Jakości i Bezpieczeństwa",
-    "desc": "Nasze wieloletnie doświadczenie, podczas którego niejednokrotnie mierzyliśmy się z sytuacjami kryzysowymi, pozwoliło nam wypracować system, w którym pracownik ma zagwarantowane zatrudnienie u sprawdzonego pracodawcy, a z drugiej strony pracodawca ma gwarancję zatrudnienia wykwalifikowanego pracownika.",
-    "button": "Jesteśmy legalnie działającą Agencją Zatrudnienia zarejestrowaną w KRAZ pod numerem 34778"
+    "desc": "Nasze wieloletnie doświadczenie, w trakcie którego to czasu niejednokrotnie mierzyliśmy się z sytuacjami kryzysowymi, pozwoliło nam na wypracowanie systemu, w którym pracownik ma gwarancję zatrudnienia u sprawdzonego pracodawcy, a z drugiej strony pracodawca ma gwarancję, że zatrudnia wykwalifikowanego pracownika.",
+    "button": "Jesteśmy legalnie działającą Agencją Pracy zarejestrowaną w KRAZ pod numerem 34778"
   },
   "services": {
     "title": "Nasze Usługi",
-    "subtitle1": "Specjalizujemy się w łączeniu pracodawców z wykwalifikowanymi pracownikami z całego świata. Nasze usługi obejmują pełen zakres wsparcia - od rekrutacji aż po adaptację w nowym miejscu pracy.",
-    "subtitle2": "Nasi eksperci działają na rynku pracy od 2017 roku. Od tego czasu z sukcesem połączyliśmy pracowników i pracodawców w takich krajach jak Polska, Litwa, Niemcy, Szwecja. Zaufały nam setki pracowników z Azji, Ameryki Południowej i Europy Wschodniej.",
+    "subtitle1": "Specjalizujemy się w łączeniu pracodawców z wykwalifikowanymi pracownikami z całego świata. Nasze usługi obejmują pełen zakres wsparcia - od rekrutacji po adaptację w nowym miejscu pracy.",
+    "subtitle2": "Nasi eksperci działają na rynku pośrednictwa pracy od 2017 roku. Od tego czasu, z powodzeniem łączymy pracowników i pracodawców między innymi w takich krajach jak Polska, Litwa, Niemcy czy Szwecja. Zaufało nam już setki pracowników z Azji, Ameryki Południowej, Europy Wschodniej.",
     "service1_title": "Rekrutacja Międzynarodowa",
-    "service1_desc": "Kompleksowa rekrutacja wykwalifikowanych pracowników z krajów UE i spoza UE. Sprawdzamy kwalifikacje, doświadczenie i umiejętności językowe.",
+    "service1_desc": "Kompleksowa rekrutacja wykwalifikowanych pracowników z krajów UE i spoza UE. Sprawdzamy kwalifikacje, doświadczenie i znajomość języków.",
     "service1_item1": "Weryfikacja dokumentów i kwalifikacji",
     "service1_item2": "Testy językowe i kompetencyjne",
     "service1_item3": "Wsparcie w procesie wizowym",
     "service1_item4": "Przygotowanie do rozmów kwalifikacyjnych",
-    "service2_title": "Obsługa Formalności Kadrowo-Prawnych",
-    "service2_desc": "Zajmujemy się przygotowaniem i prowadzeniem wszystkich dokumentów związanych z zatrudnieniem – od umów, przez zgłoszenia do ZUS, po akta pracownicze i listę płac.",
-    "service2_item1": "Oświadczenia o powierzeniu pracy",
-    "service2_item2": "Zezwolenia na pracę",
-    "service2_item3": "Szkolenia BHP",
-    "service2_item4": "Wielojęzyczna adaptacja dokumentacji pracowniczej",
+    "service2_title": "Dopasowanie Ogłoszeń",
+    "service2_desc": "Zaawansowana platforma AI łącząca kandydatów z idealną pracą w oparciu o umiejętności, doświadczenie i preferencje.",
+    "service2_item1": "Inteligentne dopasowanie AI",
+    "service2_item2": "Baza tysięcy aktualnych ofert",
+    "service2_item3": "Personalizowane rekomendacje",
+    "service2_item4": "Śledzenie aplikacji w czasie rzeczywistym",
     "service3_title": "Szkolenia i Przygotowanie",
     "service3_desc": "Profesjonalne szkolenia branżowe, kursy językowe i programy adaptacyjne przygotowujące do pracy w Europie.",
-    "service3_item1": "Kursy języków europejskich (niemiecki, angielski, niderlandzki)",
+    "service3_item1": "Kursy języków europejskich (niemiecki, angielski, holenderski)",
     "service3_item2": "Szkolenia branżowe i certyfikaty",
     "service3_item3": "Programy adaptacji kulturowej",
     "service3_item4": "Wsparcie mentorskie po zatrudnieniu"
   },
   "employees": {
-    "title": "Dla Pracowników",
-    "carousel_texts": [
-      "LEGALNE ZATRUDNIENIE",
-      "PEŁNA OBSŁUGA DOKUMENTACYJNA",
-      "SZKOLENIA I WSPARCIE"
-    ],
+    "title": "Popularne Kategorie Pracy",
+    "subtitle": "Znajdź pracę w branży, która Cię interesuje. Oferujemy stanowiska w różnych sektorach na terenie całej Europy.",
     "cat1": "Budownictwo",
     "cat1_desc": "Pracownicy budowlani, murarze, cieśle",
     "cat1_loc": "Holandia • Belgia • Niemcy • Francja",
@@ -72,38 +68,38 @@
     "cat6": "Sprzątanie",
     "cat6_desc": "Personel sprzątający w hotelach i biurach",
     "cat6_loc": "Holandia • Belgia • Niemcy • Francja",
-    "title_part1": "Dla ",
-    "title_part2": "Pracowników"
+    "dynamic_heading": "OBSŁUGA DOKUMENTACYJNA"
   },
   "employers": {
-    "title": "Dla Pracodawców",
-    "carousel_texts": [
-      "ZMIANA PRZEPISÓW DOTYCZĄCYCH ZATRUDNIENIA CUDZOZIEMCÓW",
-      "KARY ZA NIELEGALNE ZATRUDNIENIE CUDZOZIEMCA",
-      "PRZEPROWADŹ AUDYT, ABY UNIKNĄĆ KAR"
-    ],
-    "solution1_title": "Leasing Pracowniczy",
-    "solution1_desc": "Elastyczne pozyskiwanie pracowników bez konieczności ich zatrudniania.",
-    "solution2_title": "Rekrutacje Stałe",
-    "solution2_desc": "Zajmujemy się przygotowaniem i prowadzeniem wszystkich dokumentów związanych z zatrudnieniem – od umów, przez zgłoszenia do ZUS, po prowadzenie dokumentacji pracowniczej i listy płac. Gwarantujemy legalność i bezpieczeństwo zatrudnienia, również dla pracowników z zagranicy.",
-    "solution3_title": "Doradztwo i wsparcie HR",
-    "solution3_desc": "Oferujemy profesjonalne doradztwo w zakresie doboru pracowników, analizy potrzeb kadrowych i optymalizacji procesów zatrudnienia. Pomagamy budować efektywne zespoły i wspieramy rozwój employer brandingu Twojej firmy.",
+    "title": "Usługi dla Pracodawców",
+    "subtitle": "Kompleksowe Rozwiązania Kadrowe dla Firm",
+    "solutions_title": "Nasze Rozwiązania",
+    "solution1_title": "Kompleksowa rekrutacja i selekcja kandydatów",
+    "solution1_desc": "Przeprowadzamy cały proces rekrutacyjny – od pozyskania kandydatów, przez selekcję CV, rozmowy kwalifikacyjne, aż po przedstawienie pracodawcy wyselekcjonowanych, najlepiej dopasowanych osób. Dzięki temu oszczędzasz czas i masz pewność, że otrzymujesz kandydatów o odpowiednich kwalifikacjach i predyspozycjach.",
+    "solution2_title": "Obsługa formalności kadrowych i prawnych",
+    "solution2_desc": "Zajmujemy się przygotowaniem i obsługą wszystkich dokumentów związanych z zatrudnieniem – od umów, przez zgłoszenia do ZUS, po prowadzenie dokumentacji pracowniczej i rozliczenia płacowe. Gwarantujemy legalność oraz bezpieczeństwo zatrudnienia, także w przypadku pracowników z zagranicy.",
+    "solution3_title": "Doradztwo personalne i wsparcie HR",
+    "solution3_desc": "Oferujemy profesjonalne doradztwo w zakresie doboru pracowników, analizy potrzeb kadrowych oraz optymalizacji procesów zatrudnienia. Pomagamy w budowaniu efektywnych zespołów i wspieramy rozwój employer brandingu Twojej firmy.",
     "solution4_title": "Szybkie i elastyczne zatrudnianie pracowników tymczasowych",
-    "solution4_desc": "Zapewniamy możliwość błyskawicznego pozyskania pracowników na zastępstwo, do projektów sezonowych lub w sytuacjach awaryjnych. Dzięki szerokiej bazie kandydatów i sprawnym procesom rekrutacyjnym, reagujemy natychmiast na Twoje bieżące potrzeby kadrowe.",
-    "solution5_title": "Promocja ofert pracy i employer branding",
-    "solution5_desc": "Zapewniamy skuteczną promocję Twoich ofert pracy na portalach pracy, w mediach społecznościowych i w branżowych kanałach komunikacji. Wspieramy budowanie pozytywnego wizerunku Twojej firmy jako atrakcyjnego pracodawcy na rynku pracy."
+    "solution4_desc": "Zapewniamy możliwość szybkiego pozyskania pracowników na zastępstwo, do projektów sezonowych lub w sytuacjach nagłych. Dzięki szerokiej bazie kandydatów i sprawnym procesom rekrutacyjnym, błyskawicznie odpowiadamy na Twoje bieżące potrzeby kadrowe.",
+    "solution5_title": "Promocja ofert pracy i wizerunku pracodawcy",
+    "solution5_desc": "Dbamy o skuteczną promocję Twoich ofert pracy na portalach ogłoszeniowych, w mediach społecznościowych oraz w branżowych kanałach komunikacji. Wspieramy budowanie pozytywnego wizerunku Twojej firmy jako atrakcyjnego pracodawcy na rynku pracy."
   },
   "contactForm": {
     "title": "Skontaktuj się z Nami",
-    "desc": "Masz pytania lub chcesz nawiązać współpracę? Wypełnij formularz poniżej, a nasz zespół skontaktuje się z Tobą tak szybko, jak to możliwe.",
+    "desc": "Masz pytania lub chcesz nawiązać współpracę? Wypełnij formularz poniżej, a nasz zespół odezwie się do Ciebie najszybciej jak to możliwe.",
     "name_placeholder": "Imię i Nazwisko *",
-    "email_placeholder": "Adres email *",
+    "email_placeholder": "Adres e-mail *",
     "phone_placeholder": "Numer telefonu (opcjonalnie)",
     "message_placeholder": "Wpisz swoją wiadomość... *",
     "button": "Wyślij Wiadomość",
     "required_fields": "Pola oznaczone * są wymagane.",
-    "phone_contact": "Lub zadzwoń: +48 530 009 316",
-    "whatsapp_message": "Cześć! Chciałbym/chciałabym uzyskać więcej informacji na temat usług GOLD JOB AGENCY."
+    "or_contact_directly": "Lub skontaktuj się z nami bezpośrednio:"
+  },
+  "floating_buttons": {
+    "whatsapp_tooltip": "Napisz na WhatsApp",
+    "telegram_tooltip": "Napisz na Telegram",
+    "phone_tooltip": "Zadzwoń do nas"
   },
   "footer": {
     "mission": "GOLD JOB AGENCY łączy wykwalifikowanych pracowników z całego świata z międzynarodowymi możliwościami zatrudnienia.",
@@ -112,20 +108,16 @@
     "service2": "Szkolenia Zawodowe",
     "service3": "Platforma Pracy",
     "contact_title": "Kontakt",
-    "contact_phone": "+48 530 009 316",
     "contact_email": "info@gold-job-agency.com",
     "contact_support": "Wsparcie 24/7",
-    "contact_terms": "Warunki korzystania z usług",
-    "contact_whatsapp": "WhatsApp",
-    "contact_telegram": "Telegram",
+    "contact_terms": "Regulamin",
     "copyright": "© 2025 QUANTIRO Sp. z o.o., KRS: 0000845625, NIP: 7571488292. Wszelkie prawa zastrzeżone.",
-    "ai_powered": "Wspierane przez technologie AI",
+    "ai_powered": "Napędzane przez technologie AI",
     "secure_platform": "Bezpieczna Platforma"
   },
   "thankYouPage": {
-    "pageTitle": "Dziękujemy! - GOLD JOB AGENCY",
     "title": "Dziękujemy za Twoją wiadomość!",
-    "desc": "Otrzymaliśmy Twoje zapytanie i skontaktujemy się z Tobą tak szybko, jak to możliwe.",
+    "desc": "Otrzymaliśmy Twoje zapytanie i skontaktujemy się z Tobą najszybciej jak to możliwe.",
     "button": "Wróć na stronę główną"
   }
-}
+} 
