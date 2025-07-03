@@ -48,8 +48,15 @@
     "service3_item4": "Mentoring support after employment"
   },
   "employees": {
-    "title": "Popular Job Categories",
-    "subtitle": "Find a job in the industry that interests you. We offer positions in various sectors throughout Europe.",
+    "title": "For Employees",
+    "desc": "Find your dream job in Europe with Gold Job Agency. We offer positions in various sectors and provide full support at every stage of recruitment.",
+    "carousel_texts": [
+      "LEGAL EMPLOYMENT",
+      "FULL DOCUMENTATION SUPPORT",
+      "TRAINING AND SUPPORT"
+    ],
+    "category1_title": "Construction",
+    "category1_desc": "Construction and infrastructure projects throughout Europe.",
     "cat1": "Construction",
     "cat1_desc": "Construction workers, bricklayers, carpenters",
     "cat1_loc": "Netherlands • Belgium • Germany • France",
@@ -77,12 +84,17 @@
     "title_part2": "Employees"
   },
   "employers": {
-    "title": "Services for Employers",
-    "subtitle": "Comprehensive HR Solutions for Companies",
+    "title": "For Employers",
+    "desc": "We provide comprehensive HR solutions to help your business grow. We offer flexible forms of cooperation and access to qualified employees.",
+    "carousel_texts": [
+      "CHANGES IN REGULATIONS ON THE EMPLOYMENT OF FOREIGNERS",
+      "PENALTIES FOR ILLEGAL EMPLOYMENT OF A FOREIGNER",
+      "CONDUCT AN AUDIT TO AVOID PENALTIES"
+    ],
     "solutions_title": "Our Solutions",
-    "solution1_title": "Comprehensive recruitment and selection of candidates",
-    "solution1_desc": "We carry out the entire recruitment process – from sourcing candidates, through CV selection, interviews, to presenting the employer with selected, best-matched individuals. This saves you time and ensures you receive candidates with the right qualifications and predispositions.",
-    "solution2_title": "Handling of HR and legal formalities",
+    "solution1_title": "Employee Leasing",
+    "solution1_desc": "Flexible acquisition of employees without the need for direct employment.",
+    "solution2_title": "Permanent Recruitment",
     "solution2_desc": "We handle the preparation and management of all documents related to employment – from contracts, through social security registrations, to maintaining employee documentation and payroll. We guarantee legality and employment security, also for employees from abroad.",
     "solution3_title": "HR consulting and support",
     "solution3_desc": "We offer professional advice on employee selection, analysis of staffing needs, and optimization of employment processes. We help build effective teams and support the development of your company's employer branding.",
