@@ -68,11 +68,12 @@
     "cat6": "Sprzątanie",
     "cat6_desc": "Personel sprzątający w hotelach i biurach",
     "cat6_loc": "Holandia • Belgia • Niemcy • Francja",
-    "carousel_texts": [
-      "LEGALNE ZATRUDNIENIE",
-      "PEŁNA OBSŁUGA DOKUMENTACYJNA",
-      "SZKOLENIA I WSPARCIE"
-    ],
+    "dynamic_heading": {
+      "text1": "LEGALNE ZATRUDNIENIE",
+      "text2": "PEŁNA OBSŁUGA DOKUMENTACYJNA",
+      "text3": "SZKOLENIA I WSPARCIE"
+    },
+
   },
   "employers": {
     "title": "Usługi dla Pracodawców",
