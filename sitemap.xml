@@ -2,20 +2,26 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://gold-job-agency.eu/index.html</loc>
-    <xhtml:link rel="alternate" hreflang="de" href="https://gold-job-agency.eu/index.html?lng=de"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://gold-job-agency.eu/index.html?lng=en"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://gold-job-agency.eu/index.html?lng=es"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://gold-job-agency.eu/index.html?lng=fr"/>
-    <xhtml:link rel="alternate" hreflang="pl" href="https://gold-job-agency.eu/index.html?lng=pl"/>
-    <xhtml:link rel="alternate" hreflang="pt" href="https://gold-job-agency.eu/index.html?lng=pt"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://gold-job-agency.eu/index.html?lng=ru"/>
-    <xhtml:link rel="alternate" hreflang="uk" href="https://gold-job-agency.eu/index.html?lng=uk"/>
-    <xhtml:link rel="alternate" hreflang="vi" href="https://gold-job-agency.eu/index.html?lng=vi"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://gold-job-agency.eu/index.html"/>
-    <lastmod>2025-01-08</lastmod>
+    <loc>https://gold-job-agency.eu/</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://gold-job-agency.eu/?lng=de"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://gold-job-agency.eu/?lng=en"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://gold-job-agency.eu/?lng=es"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://gold-job-agency.eu/?lng=fr"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://gold-job-agency.eu/?lng=pl"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://gold-job-agency.eu/?lng=pt"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://gold-job-agency.eu/?lng=ru"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://gold-job-agency.eu/?lng=uk"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://gold-job-agency.eu/?lng=vi"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gold-job-agency.eu/"/>
+    <lastmod>2025-01-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://gold-job-agency.eu/index.html</loc>
+    <lastmod>2025-01-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
   </url>
   <url>
     <loc>https://gold-job-agency.eu/thank-you.html</loc>
