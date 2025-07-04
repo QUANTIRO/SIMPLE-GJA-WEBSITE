@@ -18,7 +18,7 @@
     "text3": "REALICE UNA AUDITORÍA PARA EVITAR SANCIONES"
   },
   "hero": {
-    "subtitle": "Somos una agencia de empleo líder especializada en conectar trabajadores talentosos de Asia, África y América con las mejores empresas de toda la Unión Europea. Nuestra empresa fue creada pensando en personas que buscan nuevas oportunidades profesionales, adaptadas a sus calificaciones y aspiraciones."
+    "subtitle": "Somos una agencia líder de empleo y reclutamiento especializada en el empleo legal de extranjeros en Europa. Conectamos a trabajadores talentosos de Asia, África y América con las principales empresas de la Unión Europea. Ayudamos a obtener tarjetas de residencia, visados de trabajo y permisos laborales. Nuestra agencia fue creada para personas que buscan nuevas oportunidades profesionales adaptadas a sus cualificaciones y aspiraciones."
   },
   "features": {
     "feature1_title": "Enfoque individual",
@@ -99,6 +99,20 @@
     "solution5_title": "Promoción de ofertas de trabajo e imagen del empleador",
     "solution5_desc": "Aseguramos la promoción efectiva de tus ofertas de trabajo en portales de empleo, redes sociales y canales de comunicación de la industria. Apoyamos la construcción de una imagen positiva de tu empresa como un empleador atractivo en el mercado laboral."
   },
+  "faq": {
+    "title": "Preguntas Frecuentes",
+    "subtitle": "Encuentra respuestas a las preguntas más importantes sobre nuestros servicios",
+    "question1": "¿Qué documentos se necesitan para trabajar en la UE?",
+    "answer1": "Los documentos básicos incluyen: pasaporte, permiso de trabajo o visa, seguro médico, CV y documentos que confirmen calificaciones. Como agencia de empleo licenciada KRAZ 34778, te ayudaremos a preparar la documentación completa para trabajo legal en la UE.",
+    "question2": "¿Ofrecen ayuda para encontrar alojamiento?",
+    "answer2": "Sí, ofrecemos apoyo integral para encontrar alojamiento adecuado. Colaboramos con propietarios verificados de apartamentos en varias ciudades europeas.",
+    "question3": "¿Cuánto cuestan los servicios de la agencia?",
+    "answer3": "Para candidatos, nuestros servicios básicos de reclutamiento son gratuitos. Los empleadores pagan por servicios integrales de RRHH y reclutamiento. Proporcionaremos información detallada sobre precios durante la consulta.",
+    "question4": "¿Cuánto tiempo toma el proceso de reclutamiento?",
+    "answer4": "El proceso de reclutamiento generalmente toma de 2 a 6 semanas, dependiendo del puesto y los requisitos del empleador. Informamos sobre el progreso en cada etapa del proceso.",
+    "question5": "¿Ayudan con el aprendizaje de idiomas?",
+    "answer5": "Sí, ofrecemos cursos de idiomas europeos (alemán, inglés, holandés) y programas de adaptación cultural que preparan para trabajar en un entorno internacional."
+  },
   "contactForm": {
     "title": "Contáctanos",
     "desc": "¿Tienes preguntas o quieres establecer cooperación? Completa el formulario a continuación y nuestro equipo te contactará lo antes posible.",
@@ -110,7 +124,7 @@
     "required_fields": "Los campos marcados con * son obligatorios."
   },
   "footer": {
-    "mission": "GOLD JOB AGENCY es un nombre que pertenece a QUANTIRO Sp. z o.o., que está registrada en KRAZ bajo el número 34778.",
+    "mission": "GOLD JOB AGENCY es una agencia de empleo con licencia perteneciente a QUANTIRO Sp. z o.o., registrada en KRAZ con el número 34778. Nos especializamos en la colocación legal de extranjeros, ayudando con tarjetas de residencia, estancias temporales, visados de trabajo y permisos de trabajo en los países de la Unión Europea.",
     "services_title": "Servicios",
     "service1": "Reclutamiento Internacional",
     "service2": "Entrenamiento Profesional",

@@ -1,4 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
+    console.log('DOM loaded, starting i18n setup...');
+    
     const languages = {
         de: { name: 'Deutsch', flag: 'https://cdn.jsdelivr.net/gh/lipis/flag-icons@7.0.0/flags/4x3/de.svg' },
         en: { name: 'English', flag: 'https://cdn.jsdelivr.net/gh/lipis/flag-icons@7.0.0/flags/4x3/gb.svg' },
@@ -12,7 +14,10 @@ document.addEventListener('DOMContentLoaded', () => {
     };
 
     const updateContent = () => {
+        console.log('Updating content...');
         const elements = document.querySelectorAll('[data-i18n]');
+        console.log('Found elements with data-i18n:', elements.length);
+        
         elements.forEach(el => {
             const key = el.getAttribute('data-i18n');
             let targetAttr = 'innerHTML';
@@ -24,6 +29,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     targetAttr = match[1];
                     const newKey = match[2];
                     const translation = i18next.t(newKey);
+                    console.log(`Translating [${targetAttr}]${newKey} -> ${translation}`);
                     
                     // Handle special cases like dynamic heading separately
                     if (el.id !== 'dynamic-heading') {
@@ -32,7 +38,9 @@ document.addEventListener('DOMContentLoaded', () => {
                 }
             } else {
                  if (el.id !== 'dynamic-heading') {
-                    el.innerHTML = i18next.t(key);
+                    const translation = i18next.t(key);
+                    console.log(`Translating ${key} -> ${translation}`);
+                    el.innerHTML = translation;
                 }
             }
         });
@@ -101,6 +109,7 @@ document.addEventListener('DOMContentLoaded', () => {
             link.addEventListener('click', (e) => {
                 e.preventDefault();
                 const lang = e.currentTarget.getAttribute('data-lang');
+                console.log('Changing language to:', lang);
                 i18next.changeLanguage(lang);
                 document.getElementById(`lang-menu-${containerId}`).classList.add('hidden');
             });
@@ -108,35 +117,45 @@ document.addEventListener('DOMContentLoaded', () => {
     };
 
     const setupI18next = async () => {
-        await i18next
-            .use(i18nextHttpBackend)
-            .use(i18nextBrowserLanguageDetector)
-            .init({
-                fallbackLng: 'pl',
-                debug: false,
-                backend: {
-                    loadPath: 'locales/{{lng}}/translation.json',
-                },
-                detection: {
-                    order: ['queryString', 'cookie', 'localStorage', 'navigator', 'htmlTag'],
-                    caches: ['cookie', 'localStorage'],
-                }
-            });
-        
-        updateContent();
-
-        createLanguageSwitcher('language-switcher-container');
-        createLanguageSwitcher('mobile-language-switcher-container');
-
-        // Emit custom event when i18next is ready
-        document.dispatchEvent(new CustomEvent('i18nextInitialized'));
-
-        i18next.on('languageChanged', () => {
+        console.log('Setting up i18next...');
+        try {
+            await i18next
+                .use(i18nextHttpBackend)
+                .use(i18nextBrowserLanguageDetector)
+                .init({
+                    fallbackLng: 'pl',
+                    debug: true, // Enable debug temporarily
+                    backend: {
+                        loadPath: 'locales/{{lng}}/translation.json',
+                    },
+                    detection: {
+                        order: ['queryString', 'cookie', 'localStorage', 'navigator', 'htmlTag'],
+                        caches: ['cookie', 'localStorage'],
+                    }
+                });
+            
+            console.log('i18next initialized successfully');
+            console.log('Current language:', i18next.language);
+            console.log('Available languages:', i18next.languages);
+            
             updateContent();
-            // Re-create switchers to update the displayed language
+
             createLanguageSwitcher('language-switcher-container');
             createLanguageSwitcher('mobile-language-switcher-container');
-        });
+
+            // Emit custom event when i18next is ready
+            document.dispatchEvent(new CustomEvent('i18nextInitialized'));
+
+            i18next.on('languageChanged', () => {
+                console.log('Language changed to:', i18next.language);
+                updateContent();
+                // Re-create switchers to update the displayed language
+                createLanguageSwitcher('language-switcher-container');
+                createLanguageSwitcher('mobile-language-switcher-container');
+            });
+        } catch (error) {
+            console.error('Error setting up i18next:', error);
+        }
     };
 
     // Close dropdown when clicking outside
