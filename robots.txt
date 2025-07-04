@@ -1,4 +1,24 @@
 User-agent: *
 Allow: /
+Disallow: /admin/
+Disallow: /private/
+Disallow: /*.pdf$
 
+# Allow important crawlers
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: facebookexternalhit
+Allow: /
+
+# Crawl delay for other bots
+User-agent: *
+Crawl-delay: 1
+
+Sitemap: https://gold-job-agency.eu/sitemap.xml
+
+# Additional sitemaps for better indexing
 Sitemap: https://gold-job-agency.eu/sitemap.xml

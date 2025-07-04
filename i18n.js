@@ -128,6 +128,9 @@ document.addEventListener('DOMContentLoaded', () => {
         createLanguageSwitcher('language-switcher-container');
         createLanguageSwitcher('mobile-language-switcher-container');
 
+        // Emit custom event when i18next is ready
+        document.dispatchEvent(new CustomEvent('i18nextInitialized'));
+
         i18next.on('languageChanged', () => {
             updateContent();
             // Re-create switchers to update the displayed language

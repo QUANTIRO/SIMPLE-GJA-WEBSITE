@@ -8,6 +8,14 @@
     "contact": "Contato",
     "open_menu": "Abrir menu principal"
   },
+  "navbar": {
+    "brand": "marca"
+  },
+  "carousel": {
+    "text1": "MUDANÇAS NAS REGULAMENTAÇÕES SOBRE EMPREGO DE ESTRANGEIROS",
+    "text2": "PENALIDADES POR EMPREGO ILEGAL DE ESTRANGEIROS",
+    "text3": "REALIZE UMA AUDITORIA PARA EVITAR PENALIDADES"
+  },
   "hero": {
     "subtitle": "Somos uma agência de empregos líder, especializada em conectar funcionários talentosos da Ásia, África e América com as melhores empresas da União Europeia. Nossa empresa foi criada para pessoas que buscam novas oportunidades profissionais adaptadas às suas qualificações e aspirações."
   },
@@ -79,6 +87,7 @@
   "employers": {
     "title": "Serviços para empregadores",
     "subtitle": "Soluções abrangentes de RH para empresas",
+    "foreign_delegation": "SERVIMOS EMPREENDEDORES ESTRANGEIROS QUE DELEGAM FUNCIONÁRIOS PARA TRABALHAR NA POLÔNIA no âmbito de consultoria sobre estadia e legalização do trabalho",
     "solutions_title": "Nossas soluções",
     "solution1_title": "Recrutamento e seleção abrangentes de candidatos",
     "solution1_desc": "Realizamos todo o processo de recrutamento - desde a prospecção de candidatos, passando pela seleção de currículos, entrevistas, até a apresentação ao empregador dos indivíduos selecionados e mais adequados. Isso economiza seu tempo e garante que você receba candidatos com as qualificações e predisposições certas.",
@@ -108,14 +117,14 @@
     "phone_tooltip": "Ligue para nós"
   },
   "footer": {
-    "mission": "A GOLD JOB AGENCY conecta trabalhadores qualificados de todo o mundo com oportunidades de emprego internacionais.",
+    "mission": "GOLD JOB AGENCY é um nome pertencente à QUANTIRO Sp. z o.o., que está registrada no KRAZ sob o número 34778.",
     "services_title": "Serviços",
     "service1": "Recrutamento Internacional",
     "service2": "Treinamento Profissional",
     "service3": "Plataforma de Empregos",
     "contact_title": "Contato",
     "contact_phone": "+48 530 009 316",
-    "contact_email": "info@gold-job-agency.com",
+    "contact_email": "info@gold-job-agency.eu",
     "contact_support": "Suporte 24/7",
     "contact_terms": "Termos de Serviço",
     "contact_whatsapp": "WhatsApp",

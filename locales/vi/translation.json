@@ -8,6 +8,14 @@
     "contact": "Liên hệ",
     "open_menu": "Mở menu chính"
   },
+  "navbar": {
+    "brand": "thương hiệu"
+  },
+  "carousel": {
+    "text1": "THAY ĐỔI QUY ĐỊNH VỀ TUYỂN DỤNG NGƯỜI NƯỚC NGOÀI",
+    "text2": "HÌNH PHẠT CHO VIỆC TUYỂN DỤNG BẤT HỢP PHÁP NGƯỜI NƯỚC NGOÀI",
+    "text3": "THỰC HIỆN KIỂM TOÁN ĐỂ TRÁNH HÌNH PHẠT"
+  },
   "hero": {
     "subtitle": "Chúng tôi là một cơ quan việc làm hàng đầu chuyên kết nối những nhân viên tài năng từ Châu Á, Châu Phi và Châu Mỹ với các công ty hàng đầu tại Liên minh Châu Âu. Công ty của chúng tôi được thành lập dành cho những người đang tìm kiếm cơ hội nghề nghiệp mới phù hợp với trình độ và nguyện vọng của họ."
   },
@@ -79,6 +87,7 @@
   "employers": {
     "title": "Dịch vụ cho nhà tuyển dụng",
     "subtitle": "Giải pháp nhân sự toàn diện cho các công ty",
+    "foreign_delegation": "CHÚNG TÔI PHỤC VỤ CÁC DOANH NHÂN NƯỚC NGOÀI CUNG CẤP NHÂN VIÊN ĐỂ LÀM VIỆC TẠI BA LAN trong lĩnh vực tư vấn về cư trú và hợp pháp hóa công việc",
     "solutions_title": "Giải pháp của chúng tôi",
     "solution1_title": "Tuyển dụng và lựa chọn ứng viên toàn diện",
     "solution1_desc": "Chúng tôi thực hiện toàn bộ quy trình tuyển dụng - từ tìm kiếm ứng viên, qua lựa chọn CV, phỏng vấn, đến việc giới thiệu cho nhà tuyển dụng những cá nhân được lựa chọn, phù hợp nhất. Điều này giúp bạn tiết kiệm thời gian và đảm bảo bạn nhận được những ứng viên có trình độ và năng khiếu phù hợp.",
@@ -110,14 +119,14 @@
     "phone_tooltip": "Gọi cho chúng tôi"
   },
   "footer": {
-    "mission": "GOLD JOB AGENCY kết nối những người lao động có tay nghề từ khắp nơi trên thế giới với các cơ hội việc làm quốc tế.",
+    "mission": "GOLD JOB AGENCY là tên thuộc về QUANTIRO Sp. z o.o., được đăng ký tại KRAZ dưới số 34778.",
     "services_title": "Dịch Vụ",
     "service1": "Tuyển Dụng Quốc Tế",
     "service2": "Đào Tạo Nghề Nghiệp",
     "service3": "Nền Tảng Việc Làm",
     "contact_title": "Liên Hệ",
     "contact_phone": "+48 530 009 316",
-    "contact_email": "info@gold-job-agency.com",
+    "contact_email": "info@gold-job-agency.eu",
     "contact_support": "Hỗ Trợ 24/7",
     "contact_terms": "Điều Khoản Dịch Vụ",
     "contact_whatsapp": "WhatsApp",

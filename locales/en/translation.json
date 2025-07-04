@@ -1,5 +1,6 @@
 {
-  "page_title": "GOLD JOB AGENCY - Your Career in Europe",
+  "page_title": "GOLD JOB AGENCY - Employment Agency in Europe | Job Opportunities for Foreigners",
+  "meta_description": "GOLD JOB AGENCY - international employment agency. We connect workers from Asia and Africa with employers in the EU. Recruitment, legalization of residence and work, HR support.",
   "nav": {
     "about": "About Us",
     "services": "Services",
@@ -8,57 +9,58 @@
     "contact": "Contact",
     "open_menu": "Open main menu"
   },
+  "navbar": {
+    "brand": "brand"
+  },
+  "carousel": {
+    "text1": "CHANGES IN REGULATIONS REGARDING EMPLOYMENT OF FOREIGNERS",
+    "text2": "PENALTIES FOR ILLEGAL EMPLOYMENT OF FOREIGNERS",
+    "text3": "CONDUCT AN AUDIT TO AVOID PENALTIES"
+  },
   "hero": {
-    "subtitle": "We are a leading employment agency specializing in connecting talented employees from Asia, Africa, and America with top companies in the European Union. Our company was created for people seeking new professional opportunities tailored to their qualifications and aspirations."
+    "subtitle": "We are a leading employment agency specializing in connecting talented workers from Asia, Africa and America with top companies throughout the European Union. Our company was created with people seeking new career opportunities in mind, tailored to their qualifications and aspirations."
   },
   "features": {
-    "feature1_title": "Individual Approach",
+    "feature1_title": "Individual approach",
     "feature1_desc": "Every candidate is unique to us. We analyze your skills and expectations to find the perfect position.",
-    "feature2_title": "Experience and Trust",
+    "feature2_title": "Experience and trust",
     "feature2_desc": "We have been operating for years, enjoying the trust of hundreds of employees and employers. We focus on transparency and professionalism.",
-    "feature3_title": "Comprehensive Support",
-    "feature3_desc": "We provide full support at every stage – from recruitment, through formalities, to accommodation and on-site support."
+    "feature3_title": "Comprehensive support",
+    "feature3_desc": "We provide full support at every stage - from recruitment, through formalities, to accommodation and on-site support."
   },
   "quality": {
-    "title": "Quality and Safety Guarantee",
-    "desc": "Our many years of experience, during which we have often faced crisis situations, have allowed us to develop a system where the employee is guaranteed employment with a proven employer, and on the other hand, the employer is guaranteed to hire a qualified employee.",
+    "title": "Quality and Security Guarantee",
+    "desc": "Our many years of experience, during which we have repeatedly faced crisis situations, has allowed us to develop a system in which the employee has a guarantee of employment with a proven employer, and on the other hand, the employer has a guarantee that they employ a qualified worker.",
     "button": "We are a legally operating Employment Agency registered in KRAZ under number 34778"
   },
   "services": {
     "title": "Our Services",
-    "subtitle1": "We specialize in connecting employers with qualified employees from all over the world. Our services cover a full range of support - from recruitment to adaptation in a new workplace.",
-    "subtitle2": "Our experts have been active in the job market since 2017. Since then, we have successfully connected employees and employers in countries such as Poland, Lithuania, Germany, and Sweden. We have been trusted by hundreds of employees from Asia, South America, and Eastern Europe.",
+    "subtitle1": "We specialize in connecting employers with qualified workers from around the world. Our services include a full range of support - from recruitment to adaptation in a new workplace.",
+    "subtitle2": "Our experts have been operating in the employment mediation market since 2017. Since then, we have successfully connected employees and employers in countries such as Poland, Lithuania, Germany and Sweden. Hundreds of workers from Asia, South America, and Eastern Europe have already trusted us.",
     "service1_title": "International Recruitment",
-    "service1_desc": "Comprehensive recruitment of qualified employees from EU and non-EU countries. We check qualifications, experience, and language skills.",
-    "service1_item1": "Verification of documents and qualifications",
+    "service1_desc": "Comprehensive recruitment of qualified workers from EU and non-EU countries. We check qualifications, experience and language skills.",
+    "service1_item1": "Document and qualification verification",
     "service1_item2": "Language and competency tests",
-    "service1_item3": "Support in the visa process",
-    "service1_item4": "Preparation for job interviews",
-    "service2_title": "Handling of HR and Legal Formalities",
-    "service2_desc": "We handle the preparation and management of all employment-related documents – from contracts, through ZUS registrations, to employee records and payroll.",
-    "service2_item1": "Declarations of entrusting work",
-    "service2_item2": "Work permits",
-    "service2_item3": "Health and safety training",
-    "service2_item4": "Multilingual adaptation of employee documentation",
+    "service1_item3": "Visa process support",
+    "service1_item4": "Job interview preparation",
+    "service2_title": "Job Matching",
+    "service2_desc": "Advanced AI platform connecting candidates with the perfect job based on skills, experience and preferences.",
+    "service2_item1": "Intelligent AI matching",
+    "service2_item2": "Database of thousands of current offers",
+    "service2_item3": "Personalized recommendations",
+    "service2_item4": "Real-time application tracking",
     "service3_title": "Training and Preparation",
-    "service3_desc": "Professional industry training, language courses, and adaptation programs to prepare for work in Europe.",
+    "service3_desc": "Professional industry training, language courses and adaptation programs preparing for work in Europe.",
     "service3_item1": "European language courses (German, English, Dutch)",
     "service3_item2": "Industry training and certificates",
     "service3_item3": "Cultural adaptation programs",
     "service3_item4": "Mentoring support after employment"
   },
   "employees": {
-    "title": "For Employees",
-    "desc": "Find your dream job in Europe with Gold Job Agency. We offer positions in various sectors and provide full support at every stage of recruitment.",
-    "carousel_texts": [
-      "LEGAL EMPLOYMENT",
-      "FULL DOCUMENTATION SUPPORT",
-      "TRAINING AND SUPPORT"
-    ],
-    "category1_title": "Construction",
-    "category1_desc": "Construction and infrastructure projects throughout Europe.",
+    "title": "Popular Job Categories",
+    "subtitle": "Find work in the industry that interests you. We offer positions in various sectors throughout Europe.",
     "cat1": "Construction",
-    "cat1_desc": "Construction workers, bricklayers, carpenters",
+    "cat1_desc": "Construction workers, masons, carpenters",
     "cat1_loc": "Netherlands • Belgium • Germany • France",
     "cat2": "Welding",
     "cat2_desc": "TIG, MIG, MAG welders",
@@ -77,71 +79,62 @@
     "cat6_loc": "Netherlands • Belgium • Germany • France",
     "dynamic_heading": {
       "text1": "LEGAL EMPLOYMENT",
-      "text2": "DOCUMENTATION SERVICE",
+      "text2": "DOCUMENT HANDLING",
       "text3": "TRAINING"
-    },
-    "title_part1": "For ",
-    "title_part2": "Employees"
+    }
   },
   "employers": {
-    "title": "For Employers",
-    "desc": "We provide comprehensive HR solutions to help your business grow. We offer flexible forms of cooperation and access to qualified employees.",
-    "carousel_texts": [
-      "CHANGES IN REGULATIONS ON THE EMPLOYMENT OF FOREIGNERS",
-      "PENALTIES FOR ILLEGAL EMPLOYMENT OF A FOREIGNER",
-      "CONDUCT AN AUDIT TO AVOID PENALTIES"
-    ],
+    "title": "Services for Employers",
+    "subtitle": "Comprehensive HR Solutions for Companies",
+    "foreign_delegation": "WE SERVE FOREIGN ENTREPRENEURS DELEGATING EMPLOYEES TO WORK IN POLAND in the field of advisory services regarding residence and work legalization",
     "solutions_title": "Our Solutions",
-    "solution1_title": "Employee Leasing",
-    "solution1_desc": "Flexible acquisition of employees without the need for direct employment.",
-    "solution2_title": "Permanent Recruitment",
-    "solution2_desc": "We handle the preparation and management of all documents related to employment – from contracts, through social security registrations, to maintaining employee documentation and payroll. We guarantee legality and employment security, also for employees from abroad.",
-    "solution3_title": "HR consulting and support",
-    "solution3_desc": "We offer professional advice on employee selection, analysis of staffing needs, and optimization of employment processes. We help build effective teams and support the development of your company's employer branding.",
-    "solution4_title": "Fast and flexible hiring of temporary workers",
-    "solution4_desc": "We provide the ability to quickly source employees for replacements, seasonal projects, or emergencies. Thanks to a wide base of candidates and efficient recruitment processes, we respond instantly to your current staffing needs.",
-    "solution5_title": "Promotion of job offers and employer branding",
-    "solution5_desc": "We ensure effective promotion of your job offers on job portals, in social media, and in industry-specific communication channels. We support building a positive image of your company as an attractive employer in the job market."
+    "solution1_title": "Comprehensive recruitment and candidate selection",
+    "solution1_desc": "We conduct the entire recruitment process - from acquiring candidates, through CV selection, job interviews, to presenting the employer with selected, best-matched people. This saves you time and gives you confidence that you receive candidates with appropriate qualifications and predispositions.",
+    "solution2_title": "HR and legal formalities handling",
+    "solution2_desc": "We handle the preparation and processing of all employment-related documents - from contracts, through ZUS registrations, to maintaining employee documentation and payroll settlements. We guarantee legality and employment security, also for foreign workers.",
+    "solution3_title": "Personnel consulting and HR support",
+    "solution3_desc": "We offer professional consulting in employee selection, HR needs analysis and employment process optimization. We help build effective teams and support the development of your company's employer branding.",
+    "solution4_title": "Fast and flexible temporary worker employment",
+    "solution4_desc": "We provide the opportunity to quickly acquire workers for replacement, seasonal projects or emergency situations. Thanks to our extensive candidate database and efficient recruitment processes, we respond instantly to your current HR needs.",
+    "solution5_title": "Job offer promotion and employer image",
+    "solution5_desc": "We ensure effective promotion of your job offers on job portals, social media and industry communication channels. We support building a positive image of your company as an attractive employer in the job market."
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "subtitle": "Find answers to the most important questions about our services",
+    "question1": "What documents are needed to work in the EU?",
+    "answer1": "Basic documents include: passport, work permit or visa, health insurance, CV, and documents confirming qualifications. We will help you prepare complete documentation.",
+    "question2": "Do you offer help in finding accommodation?",
+    "answer2": "Yes, we offer comprehensive support in finding suitable accommodation. We cooperate with verified apartment owners in various European cities.",
+    "question3": "How much do agency services cost?",
+    "answer3": "For candidates, our basic recruitment services are free. Employers pay for comprehensive HR and recruitment services. We will provide detailed pricing information during consultation.",
+    "question4": "How long does the recruitment process take?",
+    "answer4": "The recruitment process usually takes 2 to 6 weeks, depending on the position and employer requirements. We inform about progress at every stage of the process.",
+    "question5": "Do you help with language learning?",
+    "answer5": "Yes, we offer European language courses (German, English, Dutch) and cultural adaptation programs that prepare for work in an international environment."
   },
   "contactForm": {
     "title": "Contact Us",
-    "desc": "Have questions or want to collaborate? Fill out the form below, and our team will get back to you as soon as possible.",
-    "name_placeholder": "Name and Surname *",
-    "email_placeholder": "Email address *",
-    "phone_placeholder": "Phone number (optional)",
+    "desc": "Do you have questions or want to establish cooperation? Fill out the form below and our team will contact you as soon as possible.",
+    "name_placeholder": "Full Name *",
+    "email_placeholder": "Email Address *",
+    "phone_placeholder": "Phone Number (optional)",
     "message_placeholder": "Enter your message... *",
     "button": "Send Message",
-    "required_fields": "Fields marked with * are required.",
-    "or_contact_directly": "Or contact us directly:",
-    "phone_contact": "Or call: +48 530 009 316",
-    "whatsapp_message": "Hello! I would like to get more information about GOLD JOB AGENCY services."
-  },
-  "floating_buttons": {
-    "whatsapp_tooltip": "Message on WhatsApp",
-    "telegram_tooltip": "Message on Telegram",
-    "phone_tooltip": "Call us"
+    "required_fields": "Fields marked with * are required."
   },
   "footer": {
-    "mission": "GOLD JOB AGENCY connects skilled workers from around the world with international employment opportunities.",
+    "mission": "GOLD JOB AGENCY is a name belonging to QUANTIRO Sp. z o.o., which is registered in KRAZ under number 34778.",
     "services_title": "Services",
     "service1": "International Recruitment",
-    "service2": "Vocational Training",
+    "service2": "Professional Training",
     "service3": "Job Platform",
     "contact_title": "Contact",
-    "contact_phone": "+48 530 009 316",
-    "contact_email": "info@gold-job-agency.com",
-    "contact_support": "24/7 Support",
     "contact_terms": "Terms of Service",
-    "contact_whatsapp": "WhatsApp",
-    "contact_telegram": "Telegram",
     "copyright": "© 2025 QUANTIRO Sp. z o.o., KRS: 0000845625, NIP: 7571488292. All rights reserved.",
-    "ai_powered": "Powered by AI technologies",
+    "ai_powered": "Powered by AI technology",
     "secure_platform": "Secure Platform"
   },
-  "thankYouPage": {
-    "pageTitle": "Thank You! - GOLD JOB AGENCY",
-    "title": "Thank you for your message!",
-    "desc": "We have received your inquiry and will contact you as soon as possible.",
-    "button": "Back to homepage"
-  }
+  "contact_email": "info@gold-job-agency.eu",
+  "contact_phone": "+48 530 009 316"
 } 

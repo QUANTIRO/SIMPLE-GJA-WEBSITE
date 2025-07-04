@@ -8,6 +8,14 @@
     "contact": "Contact",
     "open_menu": "Ouvrir le menu principal"
   },
+  "navbar": {
+    "brand": "marque"
+  },
+  "carousel": {
+    "text1": "CHANGEMENTS DANS LA RÉGLEMENTATION CONCERNANT L'EMPLOI D'ÉTRANGERS",
+    "text2": "SANCTIONS POUR EMPLOI ILLÉGAL D'ÉTRANGERS",
+    "text3": "EFFECTUEZ UN AUDIT POUR ÉVITER LES SANCTIONS"
+  },
   "hero": {
     "subtitle": "Nous sommes une agence de placement de premier plan spécialisée dans la mise en relation d'employés talentueux d'Asie, d'Afrique et d'Amérique avec des entreprises de premier plan dans l'Union européenne. Notre entreprise a été créée pour les personnes à la recherche de nouvelles opportunités professionnelles adaptées à leurs qualifications et à leurs aspirations."
   },
@@ -79,6 +87,7 @@
   "employers": {
     "title": "Services aux employeurs",
     "subtitle": "Solutions RH complètes pour les entreprises",
+    "foreign_delegation": "NOUS SERVONS LES ENTREPRENEURS ÉTRANGERS DÉLÉGUANT DES EMPLOYÉS POUR TRAVAILLER EN POLOGNE dans le domaine du conseil concernant le séjour et la légalisation du travail",
     "solutions_title": "Nos solutions",
     "solution1_title": "Recrutement et sélection complets de candidats",
     "solution1_desc": "Nous menons l'ensemble du processus de recrutement - de la recherche de candidats, en passant par la sélection des CV, les entretiens, jusqu'à la présentation à l'employeur des personnes sélectionnées et les mieux adaptées. Cela vous fait gagner du temps et vous assure de recevoir des candidats ayant les qualifications et les prédispositions adéquates.",
@@ -108,14 +117,14 @@
     "phone_tooltip": "Appelez-nous"
   },
   "footer": {
-    "mission": "GOLD JOB AGENCY met en relation des travailleurs qualifiés du monde entier avec des opportunités d'emploi internationales.",
+    "mission": "GOLD JOB AGENCY est un nom appartenant à QUANTIRO Sp. z o.o., qui est enregistrée au KRAZ sous le numéro 34778.",
     "services_title": "Services",
     "service1": "Recrutement International",
     "service2": "Formation Professionnelle",
     "service3": "Plateforme d'Emploi",
     "contact_title": "Contact",
     "contact_phone": "+48 530 009 316",
-    "contact_email": "info@gold-job-agency.com",
+    "contact_email": "info@gold-job-agency.eu",
     "contact_support": "Support 24/7",
     "contact_terms": "Conditions de Service",
     "contact_whatsapp": "WhatsApp",
