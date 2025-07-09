@@ -1,0 +1,141 @@
+{
+  "page_title": "GOLD JOB AGENCY - Arbeitsvermittlung in Europa | Stellenangebote für Ausländer",
+  "meta_description": "GOLD JOB AGENCY - internationale Arbeitsvermittlung. Wir verbinden Arbeitnehmer aus Asien und Afrika mit Arbeitgebern in der EU. Rekrutierung, Legalisierung von Aufenthalt und Arbeit, HR-Unterstützung.",
+  "nav": {
+    "about": "Über uns",
+    "services": "Dienstleistungen",
+    "employees": "Für Arbeitnehmer",
+    "employers": "Für Arbeitgeber",
+    "contact": "Kontakt",
+    "open_menu": "Hauptmenü öffnen"
+  },
+  "navbar": {
+    "brand": "Marke"
+  },
+  "carousel": {
+    "text1": "ÄNDERUNGEN DER VORSCHRIFTEN FÜR DIE BESCHÄFTIGUNG VON AUSLÄNDERN",
+    "text2": "STRAFEN FÜR ILLEGALE BESCHÄFTIGUNG VON AUSLÄNDERN",
+    "text3": "FÜHREN SIE EIN AUDIT DURCH, UM STRAFEN ZU VERMEIDEN"
+  },
+  "hero": {
+    "subtitle": "Wir sind eine führende Arbeitsvermittlungsagentur, die sich auf die legale Beschäftigung von Ausländern in Europa spezialisiert hat. Wir verbinden talentierte Arbeitskräfte aus Asien, Afrika und Amerika mit führenden Unternehmen in der Europäischen Union. Wir helfen bei der Erlangung von Aufenthaltstiteln, Arbeitsvisa und Arbeitserlaubnissen. Unsere Agentur wurde für Menschen gegründet, die neue berufliche Möglichkeiten suchen, die auf ihre Qualifikationen und Ambitionen zugeschnitten sind."
+  },
+  "features": {
+    "feature1_title": "Individueller Ansatz",
+    "feature1_desc": "Jeder Kandidat ist für uns einzigartig. Wir analysieren Ihre Fähigkeiten und Erwartungen, um die perfekte Stelle zu finden.",
+    "feature2_title": "Erfahrung und Vertrauen",
+    "feature2_desc": "Wir sind seit Jahren tätig und genießen das Vertrauen von Hunderten von Mitarbeitern und Arbeitgebern. Wir setzen auf Transparenz und Professionalität.",
+    "feature3_title": "Umfassende Unterstützung",
+    "feature3_desc": "Wir bieten volle Unterstützung in jeder Phase - von der Rekrutierung über Formalitäten bis hin zur Unterbringung und Unterstützung vor Ort."
+  },
+  "quality": {
+    "title": "Qualitäts- und Sicherheitsgarantie",
+    "desc": "Unsere langjährige Erfahrung, in der wir uns wiederholt mit Krisensituationen auseinandergesetzt haben, hat es uns ermöglicht, ein System zu entwickeln, in dem der Arbeitnehmer eine Garantie für eine Anstellung bei einem bewährten Arbeitgeber hat und andererseits der Arbeitgeber die Garantie hat, dass er einen qualifizierten Arbeiter beschäftigt.",
+    "button": "Wir sind eine legal tätige Arbeitsvermittlung, die in KRAZ unter der Nummer 34778 registriert ist"
+  },
+  "services": {
+    "title": "Unsere Dienstleistungen",
+    "subtitle1": "Wir spezialisieren uns darauf, Arbeitgeber mit qualifizierten Arbeitnehmern aus der ganzen Welt zu verbinden. Unsere Dienstleistungen umfassen eine vollständige Palette von Unterstützung - von der Rekrutierung bis zur Anpassung an einen neuen Arbeitsplatz.",
+    "subtitle2": "Unsere Experten sind seit 2017 auf dem Arbeitsvermittlungsmarkt tätig. Seitdem haben wir erfolgreich Arbeitnehmer und Arbeitgeber in Ländern wie Polen, Litauen, Deutschland und Schweden verbunden. Hunderte von Arbeitnehmern aus Asien, Südamerika und Osteuropa haben uns bereits vertraut.",
+    "service1_title": "Internationale Rekrutierung",
+    "service1_desc": "Umfassende Rekrutierung qualifizierter Arbeitnehmer aus EU- und Nicht-EU-Ländern. Wir überprüfen Qualifikationen, Erfahrungen und Sprachkenntnisse.",
+    "service1_item1": "Dokument- und Qualifikationsverifizierung",
+    "service1_item2": "Sprach- und Kompetenztests",
+    "service1_item3": "Unterstützung beim Visa-Prozess",
+    "service1_item4": "Vorbereitung auf Vorstellungsgespräche",
+    "service2_title": "Stellenvermittlung",
+    "service2_desc": "Fortschrittliche KI-Plattform, die Kandidaten mit dem perfekten Job basierend auf Fähigkeiten, Erfahrung und Präferenzen verbindet.",
+    "service2_item1": "Intelligentes KI-Matching",
+    "service2_item2": "Datenbank mit Tausenden aktueller Angebote",
+    "service2_item3": "Personalisierte Empfehlungen",
+    "service2_item4": "Echtzeitverfolgung von Bewerbungen",
+    "service3_title": "Schulung und Vorbereitung",
+    "service3_desc": "Professionelle Branchenschulungen, Sprachkurse und Anpassungsprogramme zur Vorbereitung auf die Arbeit in Europa.",
+    "service3_item1": "Europäische Sprachkurse (Deutsch, Englisch, Niederländisch)",
+    "service3_item2": "Branchenschulungen und Zertifikate",
+    "service3_item3": "Kulturelle Anpassungsprogramme",
+    "service3_item4": "Mentoring-Unterstützung nach der Anstellung"
+  },
+  "employees": {
+    "title": "Beliebte Jobkategorien",
+    "subtitle": "Finden Sie Arbeit in der Branche, die Sie interessiert. Wir bieten Positionen in verschiedenen Sektoren in ganz Europa.",
+    "cat1": "Bauwesen",
+    "cat1_desc": "Bauarbeiter, Maurer, Zimmerleute",
+    "cat1_loc": "Niederlande • Belgien • Deutschland • Frankreich",
+    "cat2": "Schweißen",
+    "cat2_desc": "TIG-, MIG-, MAG-Schweißer",
+    "cat2_loc": "Niederlande • Belgien • Deutschland • Frankreich",
+    "cat3": "Logistik",
+    "cat3_desc": "Lagerarbeiter, Gabelstaplerfahrer",
+    "cat3_loc": "Niederlande • Belgien • Deutschland • Frankreich",
+    "cat4": "Produktion",
+    "cat4_desc": "Produktionslinienarbeiter, Maschinenbediener",
+    "cat4_loc": "Niederlande • Belgien • Deutschland • Frankreich",
+    "cat5": "Landwirtschaft",
+    "cat5_desc": "Saisonarbeiter, Gärtner",
+    "cat5_loc": "Niederlande • Belgien • Deutschland • Frankreich",
+    "cat6": "Reinigung",
+    "cat6_desc": "Reinigungspersonal in Hotels und Büros",
+    "cat6_loc": "Niederlande • Belgien • Deutschland • Frankreich",
+    "dynamic_heading": {
+      "text1": "LEGALE BESCHÄFTIGUNG",
+      "text2": "DOKUMENTENBEARBEITUNG",
+      "text3": "SCHULUNGEN"
+    }
+  },
+  "employers": {
+    "title": "Dienstleistungen für Arbeitgeber",
+    "subtitle": "Umfassende HR-Lösungen für Unternehmen",
+    "foreign_delegation": "WIR BETREUEN AUSLÄNDISCHE UNTERNEHMER, DIE ARBEITNEHMER NACH POLEN DELEGIEREN im Bereich der Beratung bezüglich Aufenthalt und Arbeitslegalisierung",
+    "solutions_title": "Unsere Lösungen",
+    "solution1_title": "Umfassende Rekrutierung und Kandidatenauswahl",
+    "solution1_desc": "Wir führen den gesamten Rekrutierungsprozess durch - von der Akquise von Kandidaten über die Lebenslaufauswahl und Vorstellungsgespräche bis hin zur Präsentation ausgewählter, bestpassender Personen beim Arbeitgeber. Dies spart Ihnen Zeit und gibt Ihnen die Gewissheit, dass Sie Kandidaten mit geeigneten Qualifikationen und Veranlagungen erhalten.",
+    "solution2_title": "Abwicklung von HR- und rechtlichen Formalitäten",
+    "solution2_desc": "Wir kümmern uns um die Vorbereitung und Bearbeitung aller beschäftigungsbezogenen Dokumente - von Verträgen über ZUS-Anmeldungen bis hin zur Führung der Mitarbeiterdokumentation und Gehaltsabrechnungen. Wir garantieren Legalität und Beschäftigungssicherheit, auch für ausländische Arbeitnehmer.",
+    "solution3_title": "Personalberatung und HR-Unterstützung",
+    "solution3_desc": "Wir bieten professionelle Beratung in der Mitarbeiterauswahl, HR-Bedarfsanalyse und Optimierung von Beschäftigungsprozessen. Wir helfen beim Aufbau effektiver Teams und unterstützen die Entwicklung des Employer Brandings Ihres Unternehmens.",
+    "solution4_title": "Schnelle und flexible Zeitarbeiterbeschäftigung",
+    "solution4_desc": "Wir bieten die Möglichkeit, schnell Arbeiter für Ersatz, saisonale Projekte oder Notfälle zu akquirieren. Dank unserer umfangreichen Kandidatendatenbank und effizienten Rekrutierungsprozessen reagieren wir sofort auf Ihre aktuellen HR-Bedürfnisse.",
+    "solution5_title": "Stellenangebotswerbung und Arbeitgeberimage",
+    "solution5_desc": "Wir sorgen für eine effektive Bewerbung Ihrer Stellenangebote auf Jobportalen, in sozialen Medien und branchenspezifischen Kommunikationskanälen. Wir unterstützen den Aufbau eines positiven Images Ihres Unternehmens als attraktiver Arbeitgeber auf dem Arbeitsmarkt."
+  },
+  "faq": {
+    "title": "Häufig gestellte Fragen",
+    "subtitle": "Finden Sie Antworten auf die wichtigsten Fragen zu unseren Dienstleistungen",
+    "question1": "Welche Dokumente werden für die Arbeit in der EU benötigt?",
+    "answer1": "Grundlegende Dokumente sind: Reisepass, Arbeitserlaubnis oder Visum, Krankenversicherung, Lebenslauf und Dokumente zur Bestätigung der Qualifikationen. Wir helfen Ihnen bei der Vorbereitung der vollständigen Dokumentation.",
+    "question2": "Bieten Sie Hilfe bei der Suche nach Unterkünften an?",
+    "answer2": "Ja, wir bieten umfassende Unterstützung bei der Suche nach geeigneten Unterkünften. Wir arbeiten mit verifizierten Wohnungseigentümern in verschiedenen europäischen Städten zusammen.",
+    "question3": "Wie viel kosten die Agenturdienstleistungen?",
+    "answer3": "Für Kandidaten sind unsere grundlegenden Recruiting-Dienstleistungen kostenlos. Arbeitgeber zahlen für umfassende HR- und Recruiting-Dienstleistungen. Detaillierte Preisinformationen erhalten Sie während der Beratung.",
+    "question4": "Wie lange dauert der Rekrutierungsprozess?",
+    "answer4": "Der Rekrutierungsprozess dauert normalerweise 2 bis 6 Wochen, abhängig von der Position und den Anforderungen des Arbeitgebers. Wir informieren über den Fortschritt in jeder Phase des Prozesses.",
+    "question5": "Helfen Sie beim Sprachenlernen?",
+    "answer5": "Ja, wir bieten europäische Sprachkurse (Deutsch, Englisch, Niederländisch) und kulturelle Anpassungsprogramme an, die auf die Arbeit in einem internationalen Umfeld vorbereiten."
+  },
+  "contactForm": {
+    "title": "Kontaktieren Sie uns",
+    "desc": "Haben Sie Fragen oder möchten Sie eine Zusammenarbeit aufbauen? Füllen Sie das untenstehende Formular aus und unser Team wird sich so schnell wie möglich bei Ihnen melden.",
+    "name_placeholder": "Vollständiger Name *",
+    "email_placeholder": "E-Mail-Adresse *",
+    "phone_placeholder": "Telefonnummer (optional)",
+    "message_placeholder": "Geben Sie Ihre Nachricht ein... *",
+    "button": "Nachricht senden",
+    "required_fields": "Mit * markierte Felder sind erforderlich."
+  },
+  "footer": {
+    "mission": "GOLD JOB AGENCY ist eine lizenzierte Arbeitsvermittlungsagentur, die zu QUANTIRO Sp. z o.o. gehört und im KRAZ unter der Nummer 34778 registriert ist. Wir sind auf die legale Arbeitsvermittlung für Ausländer spezialisiert und helfen bei Aufenthaltskarten, befristeten Aufenthalten, Arbeitsvisa und Arbeitserlaubnissen in den Ländern der Europäischen Union.",
+    "services_title": "Dienstleistungen",
+    "service1": "Internationale Rekrutierung",
+    "service2": "Berufliche Ausbildung",
+    "service3": "Job-Plattform",
+    "contact_title": "Kontakt",
+    "contact_terms": "Nutzungsbedingungen",
+    "copyright": "© 2025 QUANTIRO Sp. z o.o., KRS: 0000845625, NIP: 7571488292. Alle Rechte vorbehalten.",
+    "ai_powered": "Angetrieben von KI-Technologie",
+    "secure_platform": "Sichere Plattform",
+    "license": "Lizenzierte Arbeitsagentur KRAZ Nr. 34778 | Wir arbeiten gemäß EU-Recht"
+  },
+  "contact_email": "info@gold-job-agency.eu",
+  "contact_phone": "+48 530 009 316"
+} 

@@ -1,0 +1,157 @@
+{
+  "page_title": "GOLD JOB AGENCY - Votre carrière en Europe",
+  "nav": {
+    "about": "À propos de nous",
+    "services": "Services",
+    "employees": "Pour les employés",
+    "employers": "Pour les employeurs",
+    "contact": "Contact",
+    "open_menu": "Ouvrir le menu principal"
+  },
+  "navbar": {
+    "brand": "marque"
+  },
+  "carousel": {
+    "text1": "CHANGEMENTS DANS LA RÉGLEMENTATION CONCERNANT L'EMPLOI D'ÉTRANGERS",
+    "text2": "SANCTIONS POUR EMPLOI ILLÉGAL D'ÉTRANGERS",
+    "text3": "EFFECTUEZ UN AUDIT POUR ÉVITER LES SANCTIONS"
+  },
+  "hero": {
+    "subtitle": "Nous sommes une agence de recrutement et d'emploi de premier plan, spécialisée dans l'emploi légal des étrangers en Europe. Nous mettons en relation des travailleurs talentueux d'Asie, d'Afrique et d'Amérique avec les plus grandes entreprises de l'Union européenne. Nous aidons à l'obtention de cartes de séjour, de visas de travail et de permis de travail. Notre agence a été créée pour les personnes à la recherche de nouvelles opportunités professionnelles adaptées à leurs qualifications et à leurs aspirations."
+  },
+  "features": {
+    "feature1_title": "Approche individuelle",
+    "feature1_desc": "Chaque candidat est unique pour nous. Nous analysons vos compétences et vos attentes pour trouver le poste idéal.",
+    "feature2_title": "Expérience et confiance",
+    "feature2_desc": "Nous opérons depuis des années, bénéficiant de la confiance de centaines d'employés et d'employeurs. Nous nous concentrons sur la transparence et le professionnalisme.",
+    "feature3_title": "Soutien complet",
+    "feature3_desc": "Nous fournissons un soutien complet à chaque étape - du recrutement, en passant par les formalités, jusqu'à l'hébergement et le soutien sur place."
+  },
+  "quality": {
+    "title": "Garantie de qualité et de sécurité",
+    "desc": "Nos nombreuses années d'expérience, au cours desquelles nous avons souvent été confrontés à des situations de crise, nous ont permis de développer un système dans lequel l'employé a la garantie d'un emploi auprès d'un employeur éprouvé, et d'autre part, l'employeur a la garantie d'embaucher un employé qualifié.",
+    "button": "Nous sommes une agence pour l'emploi opérant légalement et enregistrée au KRAZ sous le numéro 34778"
+  },
+  "services": {
+    "title": "Nos services",
+    "subtitle1": "Nous sommes spécialisés dans la mise en relation des employeurs avec des employés qualifiés du monde entier. Nos services couvrent une gamme complète de soutien - du recrutement à l'adaptation sur un nouveau lieu de travail.",
+    "subtitle2": "Nos experts sont actifs sur le marché de l'intermédiation en emploi depuis 2017. Depuis lors, nous avons mis en relation avec succès des employés et des employeurs dans des pays comme la Pologne, la Lituanie, l'Allemagne et la Suède. Des centaines d'employés d'Asie, d'Amérique du Sud et d'Europe de l'Est nous ont fait confiance.",
+    "service1_title": "Recrutement international",
+    "service1_desc": "Recrutement complet d'employés qualifiés de pays de l'UE et de pays non membres de l'UE. Nous vérifions les qualifications, l'expérience et les compétences linguistiques.",
+    "service1_item1": "Vérification des documents et des qualifications",
+    "service1_item2": "Tests de langue et de compétence",
+    "service1_item3": "Aide à la procédure de visa",
+    "service1_item4": "Préparation aux entretiens d'embauche",
+    "service2_title": "Gestion des formalités administratives et juridiques",
+    "service2_desc": "Nous nous occupons de la préparation et de la gestion de tous les documents liés à l'emploi - des contrats aux enregistrements ZUS, en passant par la tenue des dossiers des employés et la paie.",
+    "service2_item1": "Déclarations de mission de travail",
+    "service2_item2": "Permis de travail",
+    "service2_item3": "Formation à la santé et à la sécurité",
+    "service2_item4": "Adaptation multilingue de la documentation des employés",
+    "service3_title": "Formation et préparation",
+    "service3_desc": "Formation professionnelle, cours de langues et programmes d'adaptation pour se préparer à travailler en Europe.",
+    "service3_item1": "Cours de langues européennes (allemand, anglais, néerlandais)",
+    "service3_item2": "Formations et certificats sectoriels",
+    "service3_item3": "Programmes d'adaptation culturelle",
+    "service3_item4": "Soutien de mentorat après l'embauche"
+  },
+  "employees": {
+    "title": "Catégories d'emplois populaires",
+    "subtitle": "Trouvez un emploi dans le secteur qui vous intéresse. Nous proposons des postes dans divers secteurs à travers l'Europe.",
+    "cat1": "Construction",
+    "cat1_desc": "Ouvriers du bâtiment, maçons, charpentiers",
+    "cat1_loc": "Pays-Bas • Belgique • Allemagne • France",
+    "cat2": "Soudage",
+    "cat2_desc": "Soudeurs TIG, MIG, MAG",
+    "cat2_loc": "Pays-Bas • Belgique • Allemagne • France",
+    "cat3": "Logistique",
+    "cat3_desc": "Magasiniers, caristes",
+    "cat3_loc": "Pays-Bas • Belgique • Allemagne • France",
+    "cat4": "Production",
+    "cat4_desc": "Opérateurs de ligne de production, opérateurs de machines",
+    "cat4_loc": "Pays-Bas • Belgique • Allemagne • France",
+    "cat5": "Agriculture",
+    "cat5_desc": "Saisonniers, jardiniers",
+    "cat5_loc": "Pays-Bas • Belgique • Allemagne • France",
+    "cat6": "Nettoyage",
+    "cat6_desc": "Personnel de nettoyage dans les hôtels et les bureaux",
+    "cat6_loc": "Pays-Bas • Belgique • Allemagne • France",
+    "dynamic_heading": {
+      "text1": "EMPLOI LÉGAL",
+      "text2": "SERVICE DE DOCUMENTATION",
+      "text3": "FORMATION"
+    },
+    "title_part1": "Pour les ",
+    "title_part2": "Employés"
+  },
+  "employers": {
+    "title": "Services aux employeurs",
+    "subtitle": "Solutions RH complètes pour les entreprises",
+    "foreign_delegation": "NOUS SERVONS LES ENTREPRENEURS ÉTRANGERS DÉLÉGUANT DES EMPLOYÉS POUR TRAVAILLER EN POLOGNE dans le domaine du conseil concernant le séjour et la légalisation du travail",
+    "solutions_title": "Nos solutions",
+    "solution1_title": "Recrutement et sélection complets de candidats",
+    "solution1_desc": "Nous menons l'ensemble du processus de recrutement - de la recherche de candidats, en passant par la sélection des CV, les entretiens, jusqu'à la présentation à l'employeur des personnes sélectionnées et les mieux adaptées. Cela vous fait gagner du temps et vous assure de recevoir des candidats ayant les qualifications et les prédispositions adéquates.",
+    "solution2_title": "Gestion des formalités administratives et juridiques",
+    "solution2_desc": "Nous nous occupons de la préparation et de la gestion de tous les documents liés à l'emploi - des contrats, en passant par les enregistrements à la sécurité sociale, jusqu'à la tenue de la documentation des employés et de la paie. Nous garantissons la légalité et la sécurité de l'emploi, y compris pour les employés étrangers.",
+    "solution3_title": "Conseil et soutien en RH",
+    "solution3_desc": "Nous offrons des conseils professionnels sur la sélection des employés, l'analyse des besoins en personnel et l'optimisation des processus d'embauche. Nous aidons à constituer des équipes efficaces et soutenons le développement de la marque employeur de votre entreprise.",
+    "solution4_title": "Embauche rapide et flexible de travailleurs temporaires",
+    "solution4_desc": "Nous offrons la possibilité de trouver rapidement des employés pour des remplacements, des projets saisonniers ou des urgences. Grâce à une large base de candidats et à des processus de recrutement efficaces, nous répondons instantanément à vos besoins actuels en personnel.",
+    "solution5_title": "Promotion des offres d'emploi et de la marque employeur",
+    "solution5_desc": "Nous assurons une promotion efficace de vos offres d'emploi sur les portails d'emploi, les médias sociaux et les canaux de communication spécifiques au secteur. Nous soutenons la construction d'une image positive de votre entreprise en tant qu'employeur attractif sur le marché du travail."
+  },
+  "faq": {
+    "title": "Questions Fréquemment Posées",
+    "subtitle": "Trouvez des réponses aux questions les plus importantes sur nos services",
+    "question1": "Quels documents sont nécessaires pour travailler dans l'UE?",
+    "answer1": "Les documents de base incluent: passeport, permis de travail ou visa, assurance maladie, CV et documents confirmant les qualifications. En tant qu'agence d'emploi agréée KRAZ 34778, nous vous aiderons à préparer la documentation complète pour un travail légal dans l'UE.",
+    "question2": "Offrez-vous de l'aide pour trouver un logement?",
+    "answer2": "Oui, nous offrons un soutien complet pour trouver un logement approprié. Nous collaborons avec des propriétaires vérifiés d'appartements dans diverses villes européennes.",
+    "question3": "Combien coûtent les services de l'agence?",
+    "answer3": "Pour les candidats, nos services de recrutement de base sont gratuits. Les employeurs paient pour les services RH et de recrutement complets. Nous fournirons des informations détaillées sur les prix lors de la consultation.",
+    "question4": "Combien de temps dure le processus de recrutement?",
+    "answer4": "Le processus de recrutement prend généralement de 2 à 6 semaines, selon le poste et les exigences de l'employeur. Nous informons des progrès à chaque étape du processus.",
+    "question5": "Aidez-vous à l'apprentissage des langues?",
+    "answer5": "Oui, nous offrons des cours de langues européennes (allemand, anglais, néerlandais) et des programmes d'adaptation culturelle qui préparent au travail dans un environnement international."
+  },
+  "contactForm": {
+    "title": "Contactez-nous",
+    "desc": "Vous avez des questions ou souhaitez collaborer ? Remplissez le formulaire ci-dessous et notre équipe vous répondra dans les plus brefs délais.",
+    "name_placeholder": "Nom et Prénom *",
+    "email_placeholder": "Adresse e-mail *",
+    "phone_placeholder": "Numéro de téléphone (facultatif)",
+    "message_placeholder": "Entrez votre message... *",
+    "button": "Envoyer le Message",
+    "required_fields": "Les champs marqués d'un * sont obligatoires.",
+    "or_contact_directly": "Ou contactez-nous directement :"
+  },
+  "floating_buttons": {
+    "whatsapp_tooltip": "Message WhatsApp",
+    "telegram_tooltip": "Message Telegram",
+    "phone_tooltip": "Appelez-nous"
+  },
+  "footer": {
+    "mission": "GOLD JOB AGENCY est une agence d'emploi agréée appartenant à QUANTIRO Sp. z o.o., enregistrée au KRAZ sous le numéro 34778. Nous sommes spécialisés dans le placement légal des étrangers, en aidant à l'obtention de cartes de séjour, de séjours temporaires, de visas de travail et de permis de travail dans les pays de l'Union européenne.",
+    "services_title": "Services",
+    "service1": "Recrutement International",
+    "service2": "Formation Professionnelle",
+    "service3": "Plateforme d'Emploi",
+    "contact_title": "Contact",
+    "contact_phone": "+48 530 009 316",
+    "contact_email": "info@gold-job-agency.eu",
+    "contact_support": "Support 24/7",
+    "contact_terms": "Conditions de Service",
+    "contact_whatsapp": "WhatsApp",
+    "contact_telegram": "Telegram",
+    "copyright": "© 2025 QUANTIRO Sp. z o.o., KRS: 0000845625, NIP: 7571488292. Tous droits réservés.",
+    "ai_powered": "Alimenté par les technologies IA",
+    "secure_platform": "Plateforme Sécurisée",
+    "license": "Licence d'agence d'emploi KRAZ n° 34778 | Nous opérons conformément à la législation de l'UE"
+  },
+  "thankYouPage": {
+    "pageTitle": "Merci ! - GOLD JOB AGENCY",
+    "title": "Merci pour votre message !",
+    "desc": "Nous avons bien reçu votre demande et nous vous contacterons dans les plus brefs délais.",
+    "button": "Retour à la page d'accueil"
+  }
+} 

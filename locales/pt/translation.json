@@ -1,0 +1,157 @@
+{
+  "page_title": "GOLD JOB AGENCY - Sua carreira na Europa",
+  "nav": {
+    "about": "Sobre nós",
+    "services": "Serviços",
+    "employees": "Para funcionários",
+    "employers": "Para empregadores",
+    "contact": "Contato",
+    "open_menu": "Abrir menu principal"
+  },
+  "navbar": {
+    "brand": "marca"
+  },
+  "carousel": {
+    "text1": "MUDANÇAS NAS REGULAMENTAÇÕES SOBRE EMPREGO DE ESTRANGEIROS",
+    "text2": "PENALIDADES POR EMPREGO ILEGAL DE ESTRANGEIROS",
+    "text3": "REALIZE UMA AUDITORIA PARA EVITAR PENALIDADES"
+  },
+  "hero": {
+    "subtitle": "Somos uma agência líder em emprego e recrutamento, especializada na contratação legal de estrangeiros na Europa. Conectamos trabalhadores talentosos da Ásia, África e América com as principais empresas da União Europeia. Ajudamos na obtenção de cartões de residência, vistos de trabalho e autorizações de trabalho. Nossa agência foi criada para pessoas que buscam novas oportunidades de carreira adaptadas às suas qualificações e aspirações."
+  },
+  "features": {
+    "feature1_title": "Abordagem individual",
+    "feature1_desc": "Cada candidato é único para nós. Analisamos suas habilidades e expectativas para encontrar a posição perfeita.",
+    "feature2_title": "Experiência e confiança",
+    "feature2_desc": "Atuamos há anos, desfrutando da confiança de centenas de funcionários e empregadores. Focamos na transparência e no profissionalismo.",
+    "feature3_title": "Suporte abrangente",
+    "feature3_desc": "Oferecemos suporte completo em todas as etapas - desde o recrutamento, passando pelas formalidades, até a acomodação e o suporte no local."
+  },
+  "quality": {
+    "title": "Garantia de qualidade e segurança",
+    "desc": "Nossos muitos anos de experiência, durante os quais frequentemente enfrentamos situações de crise, nos permitiram desenvolver um sistema no qual o funcionário tem garantia de emprego com um empregador comprovado e, por outro lado, o empregador tem a garantia de contratar um funcionário qualificado.",
+    "button": "Somos uma Agência de Empregos que opera legalmente, registrada no KRAZ sob o número 34778"
+  },
+  "services": {
+    "title": "Nossos serviços",
+    "subtitle1": "Somos especializados em conectar empregadores com funcionários qualificados de todo o mundo. Nossos serviços cobrem uma gama completa de suporte - desde o recrutamento até a adaptação em um novo local de trabalho.",
+    "subtitle2": "Nossos especialistas atuam no mercado de intermediação de empregos desde 2017. Desde então, conectamos com sucesso funcionários e empregadores em países como Polônia, Lituânia, Alemanha e Suécia. Centenas de funcionários da Ásia, América do Sul и Europa Oriental confiaram em nós.",
+    "service1_title": "Recrutamento internacional",
+    "service1_desc": "Recrutamento abrangente de funcionários qualificados de países da UE e de fora da UE. Verificamos qualificações, experiência e habilidades linguísticas.",
+    "service1_item1": "Verificação de documentos e qualificações",
+    "service1_item2": "Testes de idioma e competência",
+    "service1_item3": "Apoio no processo de visto",
+    "service1_item4": "Preparação para entrevistas de emprego",
+    "service2_title": "Gestão de formalidades legais e de RH",
+    "service2_desc": "Cuidamos da preparação e gestão de todos os documentos relacionados ao emprego - desde contratos, passando por registros no ZUS, até a manutenção de registros de funcionários e folha de pagamento.",
+    "service2_item1": "Declarações de atribuição de trabalho",
+    "service2_item2": "Autorizações de trabalho",
+    "service2_item3": "Treinamento em saúde e segurança",
+    "service2_item4": "Adaptação multilíngue da documentação do funcionário",
+    "service3_title": "Treinamento e preparação",
+    "service3_desc": "Treinamento profissional, cursos de idiomas e programas de adaptação para se preparar para trabalhar na Europa.",
+    "service3_item1": "Cursos de línguas europeias (alemão, inglês, holandês)",
+    "service3_item2": "Treinamentos e certificados do setor",
+    "service3_item3": "Programas de adaptação cultural",
+    "service3_item4": "Apoio de mentoria após o emprego"
+  },
+  "employees": {
+    "title": "Categorias de empregos populares",
+    "subtitle": "Encontre um emprego na indústria que lhe interessa. Oferecemos vagas em vários setores em toda a Europa.",
+    "cat1": "Construção",
+    "cat1_desc": "Trabalhadores da construção, pedreiros, carpinteiros",
+    "cat1_loc": "Holanda • Bélgica • Alemanha • França",
+    "cat2": "Soldagem",
+    "cat2_desc": "Soldadores TIG, MIG, MAG",
+    "cat2_loc": "Holanda • Bélgica • Alemanha • França",
+    "cat3": "Logística",
+    "cat3_desc": "Trabalhadores de armazém, operadores de empilhadeira",
+    "cat3_loc": "Holanda • Bélgica • Alemanha • França",
+    "cat4": "Produção",
+    "cat4_desc": "Trabalhadores de linha de produção, operadores de máquinas",
+    "cat4_loc": "Holanda • Bélgica • Alemanha • França",
+    "cat5": "Agricultura",
+    "cat5_desc": "Trabalhadores sazonais, jardineiros",
+    "cat5_loc": "Holanda • Bélgica • Alemanha • França",
+    "cat6": "Limpeza",
+    "cat6_desc": "Pessoal de limpeza em hotéis e escritórios",
+    "cat6_loc": "Holanda • Bélgica • Alemanha • França",
+    "dynamic_heading": {
+      "text1": "EMPREGO LEGAL",
+      "text2": "SERVIÇO DE DOCUMENTAÇÃO",
+      "text3": "TREINAMENTO"
+    },
+    "title_part1": "Para ",
+    "title_part2": "Funcionários"
+  },
+  "employers": {
+    "title": "Serviços para empregadores",
+    "subtitle": "Soluções abrangentes de RH para empresas",
+    "foreign_delegation": "SERVIMOS EMPREENDEDORES ESTRANGEIROS QUE DELEGAM FUNCIONÁRIOS PARA TRABALHAR NA POLÔNIA no âmbito de consultoria sobre estadia e legalização do trabalho",
+    "solutions_title": "Nossas soluções",
+    "solution1_title": "Recrutamento e seleção abrangentes de candidatos",
+    "solution1_desc": "Realizamos todo o processo de recrutamento - desde a prospecção de candidatos, passando pela seleção de currículos, entrevistas, até a apresentação ao empregador dos indivíduos selecionados e mais adequados. Isso economiza seu tempo e garante que você receba candidatos com as qualificações e predisposições certas.",
+    "solution2_title": "Gestão de formalidades legais e de RH",
+    "solution2_desc": "Cuidamos da preparação e gestão de todos os documentos relacionados ao emprego - desde contratos, passando pelos registros na previdência social, até a manutenção da documentação dos funcionários e folha de pagamento. Garantimos a legalidade e a segurança no emprego, também para funcionários estrangeiros.",
+    "solution3_title": "Consultoria e suporte de RH",
+    "solution3_desc": "Oferecemos aconselhamento profissional na seleção de funcionários, análise das necessidades de pessoal e otimização dos processos de emprego. Ajudamos a construir equipes eficazes e apoiamos o desenvolvimento da marca empregadora de sua empresa.",
+    "solution4_title": "Contratação rápida e flexível de trabalhadores temporários",
+    "solution4_desc": "Oferecemos a capacidade de obter rapidamente funcionários para substituições, projetos sazonais ou emergências. Graças a uma ampla base de candidatos e processos de recrutamento eficientes, respondemos instantaneamente às suas necessidades atuais de pessoal.",
+    "solution5_title": "Promoção de ofertas de emprego e marca empregadora",
+    "solution5_desc": "Garantimos a promoção eficaz de suas ofertas de emprego em portais de emprego, mídias sociais e canais de comunicação específicos do setor. Apoiamos a construção de uma imagem positiva de sua empresa como um empregador atraente no mercado de trabalho."
+  },
+  "faq": {
+    "title": "Perguntas Frequentes",
+    "subtitle": "Encontre respostas para as perguntas mais importantes sobre nossos serviços",
+    "question1": "Quais documentos são necessários para trabalhar na UE?",
+    "answer1": "Os documentos básicos incluem: passaporte, autorização de trabalho ou visto, seguro de saúde, CV e documentos que confirmem qualificações. Como agência de emprego licenciada KRAZ 34778, ajudaremos você a preparar a documentação completa para trabalho legal na UE.",
+    "question2": "Vocês oferecem ajuda para encontrar acomodação?",
+    "answer2": "Sim, oferecemos suporte completo para encontrar acomodação adequada. Colaboramos com proprietários verificados de apartamentos em várias cidades europeias.",
+    "question3": "Quanto custam os serviços da agência?",
+    "answer3": "Para candidatos, nossos serviços básicos de recrutamento são gratuitos. Os empregadores pagam por serviços completos de RH e recrutamento. Forneceremos informações detalhadas sobre preços durante a consulta.",
+    "question4": "Quanto tempo leva o processo de recrutamento?",
+    "answer4": "O processo de recrutamento geralmente leva de 2 a 6 semanas, dependendo da posição e requisitos do empregador. Informamos sobre o progresso em cada etapa do processo.",
+    "question5": "Vocês ajudam com o aprendizado de idiomas?",
+    "answer5": "Sim, oferecemos cursos de idiomas europeus (alemão, inglês, holandês) e programas de adaptação cultural que preparam para trabalhar em um ambiente internacional."
+  },
+  "contactForm": {
+    "title": "Contate-Nos",
+    "desc": "Tem perguntas ou quer colaborar? Preencha o formulário abaixo e nossa equipe entrará em contato com você o mais breve possível.",
+    "name_placeholder": "Nome e Sobrenome *",
+    "email_placeholder": "Endereço de e-mail *",
+    "phone_placeholder": "Número de telefone (opcional)",
+    "message_placeholder": "Digite sua mensagem... *",
+    "button": "Enviar Mensagem",
+    "required_fields": "Campos marcados com * são obrigatórios.",
+    "or_contact_directly": "Ou entre em contato conosco diretamente:"
+  },
+  "floating_buttons": {
+    "whatsapp_tooltip": "Mensagem no WhatsApp",
+    "telegram_tooltip": "Mensagem no Telegram",
+    "phone_tooltip": "Ligue para nós"
+  },
+  "footer": {
+    "mission": "GOLD JOB AGENCY é uma agência de emprego licenciada pertencente à QUANTIRO Sp. z o.o., registrada no KRAZ sob o número 34778. Somos especializados em colocação legal de estrangeiros, auxiliando com cartões de residência, estadias temporárias, vistos de trabalho e autorizações de trabalho nos países da União Europeia.",
+    "services_title": "Serviços",
+    "service1": "Recrutamento Internacional",
+    "service2": "Treinamento Profissional",
+    "service3": "Plataforma de Empregos",
+    "contact_title": "Contato",
+    "contact_phone": "+48 530 009 316",
+    "contact_email": "info@gold-job-agency.eu",
+    "contact_support": "Suporte 24/7",
+    "contact_terms": "Termos de Serviço",
+    "contact_whatsapp": "WhatsApp",
+    "contact_telegram": "Telegram",
+    "copyright": "© 2025 QUANTIRO Sp. z o.o., KRS: 0000845625, NIP: 7571488292. Todos os direitos reservados.",
+    "ai_powered": "Desenvolvido com tecnologias de IA",
+    "secure_platform": "Plataforma Segura",
+    "license": "Licença de Agência de Emprego KRAZ nº 34778 | Atuamos de acordo com a legislação da UE"
+  },
+  "thankYouPage": {
+    "pageTitle": "Obrigado! - GOLD JOB AGENCY",
+    "title": "Obrigado pela sua mensagem!",
+    "desc": "Recebemos sua consulta e entraremos em contato com você o mais breve possível.",
+    "button": "Voltar à página inicial"
+  }
+} 
