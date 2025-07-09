@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title data-i18n="page_title">GOLD JOB AGENCY - Informacja o rebrandingu</title>
+    <meta name="description" data-i18n="meta_description" content="Informacja o zmianie marki na QUANTIRO JOB AGENCY">
+    <meta name="keywords" content="rebranding, QUANTIRO JOB AGENCY, zmiana marki, nowa strona, nowy email">
+    
+    <!-- i18next -->
+    <script src="https://unpkg.com/i18next/i18next.min.js"></script>
+    <script src="https://unpkg.com/i18next-http-backend/i18nextHttpBackend.min.js"></script>
+    <script src="https://unpkg.com/i18next-browser-languagedetector/i18nextBrowserLanguageDetector.min.js"></script>
+    <script src="i18n.js"></script>
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+        
+        .container {
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+            padding: 40px;
+            max-width: 800px;
+            width: 100%;
+            text-align: center;
+        }
+        
+        .logo {
+            margin-bottom: 30px;
+        }
+        
+        .logo img {
+            max-width: 200px;
+            height: auto;
+        }
+        
+        h1 {
+            color: #2c3e50;
+            margin-bottom: 20px;
+            font-size: 2.2em;
+            font-weight: 300;
+        }
+        
+        .message {
+            text-align: left;
+            font-size: 1.1em;
+            line-height: 1.8;
+            color: #555;
+            margin-bottom: 30px;
+        }
+        
+        .highlight {
+            background: linear-gradient(120deg, #a8edea 0%, #fed6e3 100%);
+            padding: 20px;
+            border-radius: 10px;
+            margin: 20px 0;
+            border-left: 5px solid #667eea;
+        }
+        
+        .new-info {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 10px;
+            margin: 20px 0;
+            border: 2px solid #e9ecef;
+        }
+        
+        .new-info h3 {
+            color: #667eea;
+            margin-bottom: 10px;
+        }
+        
+        .contact-info {
+            background: #e3f2fd;
+            padding: 20px;
+            border-radius: 10px;
+            margin: 20px 0;
+            border-left: 5px solid #2196f3;
+        }
+        
+        .signature {
+            margin-top: 30px;
+            font-weight: bold;
+            color: #2c3e50;
+        }
+        
+        .redirect-button {
+            display: inline-block;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 15px 30px;
+            text-decoration: none;
+            border-radius: 25px;
+            font-weight: bold;
+            margin-top: 20px;
+            transition: transform 0.3s ease;
+        }
+        
+        .redirect-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+        }
+        
+        .language-switcher {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            background: white;
+            border-radius: 25px;
+            padding: 10px 20px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+        
+        .language-switcher select {
+            border: none;
+            background: transparent;
+            font-size: 14px;
+            color: #333;
+            cursor: pointer;
+            outline: none;
+        }
+        
+        .language-switcher select option {
+            background: white;
+            color: #333;
+        }
+        
+        @media (max-width: 768px) {
+            .container {
+                padding: 20px;
+                margin: 10px;
+            }
+            
+            h1 {
+                font-size: 1.8em;
+            }
+            
+            .message {
+                font-size: 1em;
+            }
+            
+            .language-switcher {
+                position: relative;
+                top: auto;
+                right: auto;
+                margin-bottom: 20px;
+            }
+        }
+    </style>
+</head>
+<body style="margin:0;padding:0;font-family:'Segoe UI',Tahoma,Geneva,Verdana,sans-serif;background:#fff;min-height:100vh;">
+  <main style="display:flex;align-items:center;justify-content:center;min-height:100vh;">
+    <section style="background:#fff;border-radius:15px;box-shadow:0 20px 40px rgba(213,183,93,0.10);padding:40px 30px 30px 30px;text-align:center;border:2px solid #d5b75d;max-width:480px;width:100%;">
+      <div style="display:flex;align-items:center;justify-content:center;margin-bottom:24px;gap:28px;">
+        <img src="images/GJA.png" alt="GOLD JOB AGENCY" style="max-width:140px;max-height:120px;" onerror="this.style.display='none'">
+        <span style="font-size:2.6em;color:#d5b75d;display:inline-block;vertical-align:middle;">&#8594;</span>
+        <img src="images/LQ4.png" alt="QUANTIRO JOB AGENCY" style="max-width:140px;max-height:120px;" onerror="this.style.display='none'">
+      </div>
+      <h1 style="color:#d5b75d;font-size:1.7em;font-weight:700;margin-bottom:18px;">Informacja o rebrandingu</h1>
+      <p style="font-size:1.05em;color:#444;margin-bottom:14px;">Szanowni Państwo,</p>
+      <p style="font-size:1.05em;color:#444;margin-bottom:16px;">Z przyjemnością informujemy, że nasza firma przechodzi proces rebrandingu, aby być jeszcze bardziej rozpoznawalną i lepiej odpowiadać na Państwa potrzeby. W związku z tym zmieniamy naszą markę oraz adres e-mail.</p>
+      <div style="background:linear-gradient(120deg,#fffbe6 0%,#f7e7c4 100%);padding:14px 10px;border-radius:10px;margin:18px 0 14px 0;border-left:5px solid #d5b75d;font-weight:bold;color:#333;">
+        Od teraz jesteśmy dostępni pod nową nazwą <span style="color:#d5b75d;">QUANTIRO JOB AGENCY</span>.
+      </div>
+      <div style="background:#fcf8f2;padding:12px 8px;border-radius:10px;margin:14px 0 14px 0;border:2px solid #f3e6c4;">
+        <div style="color:#d5b75d;font-weight:bold;margin-bottom:6px;">Nowe dane kontaktowe:</div>
+        <div><b>Nowa strona:</b> <a href="https://www.quantiro.eu" target="_blank" style="color:#b91c1c;text-decoration:none;">www.quantiro.eu</a></div>
+        <div><b>Nowy e-mail:</b> <a href="mailto:contact@quantiro.eu" style="color:#b91c1c;text-decoration:none;">contact@quantiro.eu</a></div>
+      </div>
+      <div style="background:#fff7f7;padding:12px 8px;border-radius:10px;margin:14px 0 14px 0;border-left:5px solid #b91c1c;">
+        <b>Prosimy o kierowanie wszelkiej korespondencji na nowy adres e-mail:</b><br>
+        <span style="font-size:1.1em;color:#b91c1c;">contact@quantiro.eu</span>
+      </div>
+      <p style="font-size:1.05em;color:#444;margin-bottom:14px;">Dziękujemy za zaufanie i zapraszamy do kontaktu!</p>
+      <div style="margin-top:18px;font-weight:bold;color:#d5b75d;">Zespół QUANTIRO JOB AGENCY</div>
+      <a href="https://www.quantiro.eu" target="_blank" style="display:inline-block;background:linear-gradient(135deg,#d5b75d 0%,#bfa14a 100%);color:#fff;padding:13px 26px;text-decoration:none;border-radius:25px;font-weight:bold;margin-top:24px;transition:transform 0.3s;">Przejdź do nowej strony</a>
+    </section>
+  </main>
+</body>
